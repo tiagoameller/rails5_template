@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple project for Rails 5 with Bootstrap 5 framework
 
-Things you may want to cover:
+Motivation:
 
-* Ruby version
+I need to migrate a large project build with Rails 4 to most recent framework (7?). First step is get it working on Rails 5.
 
-* System dependencies
+Used gems:
+* Devise
+* Bootrap5
+* Bootrap5 Icons
 
-* Configuration
+Old school: Coffeescript is used
 
-* Database creation
+Testing: RSpec
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
