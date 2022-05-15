@@ -123,6 +123,9 @@ Metrics/PerceivedComplexity:
 # Style/HashTransformValues:
 #   Enabled: false
 
+Style/BlockComments
+  Enabled: false
+
 Style/SingleLineBlockParams:
   Enabled: false
 
