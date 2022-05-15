@@ -1,18 +1,17 @@
 require 'rails_helper'
 
-RSpec.describe "brands/new", type: :view do
+RSpec.describe 'brands/new', type: :view do
   before(:each) do
     assign(:brand, Brand.new(
-      name: "MyString"
-    ))
+                     name: 'MyString'
+                   ))
   end
 
-  it "renders new brand form" do
+  it 'renders new brand form' do
     render
 
-    assert_select "form[action=?][method=?]", brands_path, "post" do
-
-      assert_select "input[name=?]", "brand[name]"
+    assert_select 'form[action=?][method=?]', brands_path, 'post' do
+      assert_select 'input[name=?]', 'brand[name]'
     end
   end
 end
