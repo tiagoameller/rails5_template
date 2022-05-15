@@ -14,3 +14,13 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
+
+$(document).on('turbolinks:load', function() {
+  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl)
+  })
+})
