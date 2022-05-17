@@ -64,6 +64,6 @@ class BrandsController < ApplicationController
 
   # Only allow a list of trusted parameters through.
   def brand_params
-    params.require(:brand).permit(:name)
+    params.require(:brand).permit(:name, :yes_or_not)
   end
 end

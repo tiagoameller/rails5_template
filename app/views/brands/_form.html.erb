@@ -9,14 +9,19 @@
       <% end %>
       </ul>
     </div>
-  <% end %>
+ <% end %>
 
-  <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name, class: 'focus-me' %>
+  <div class="mb-3 field">
+    <%= form.label :name, class: 'form-label' %>
+    <%= form.text_field :name, class: 'form-control focus-me' %>
   </div>
-
-  <div class="actions">
+  <div class="mb-3">
+    <div class="form-check form-switch">
+      <%= form.check_box :yes_or_not, class: 'form-check-input', role: :switch %>
+      <label class="form-check-label" for="brand_yes_or_not">Yes or Not</label>
+    </div>
+  </div>
+  <div class="mb-3 actions">
     <%= form.submit %>
   </div>
 <% end %>
