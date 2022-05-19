@@ -46,6 +46,8 @@ gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 gem 'bootstrap_icons_rails'
 gem 'jquery-rails'
 
+gem 'semver2'
+
 group :development, :test do
   gem 'faker'
   gem 'database_cleaner'

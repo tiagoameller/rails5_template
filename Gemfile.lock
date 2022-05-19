@@ -249,6 +249,7 @@ GEM
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2)
+    semver2 (3.4.2)
     shoulda-matchers (5.1.0)
       activesupport (>= 5.2.0)
     spring (2.1.1)
@@ -315,6 +316,7 @@ DEPENDENCIES
   rubocop-rspec
   sass-rails (~> 5.0)
   selenium-webdriver
+  semver2
   shoulda-matchers
   spring
   spring-watcher-listen (~> 2.0.0)
