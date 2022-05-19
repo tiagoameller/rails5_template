@@ -27,4 +27,12 @@ class User < ApplicationRecord
   enum admin_level: { basic: 0, commercial: 1, design: 2, delivery: 3, delivery_super: 4, office: 5, admin: 7 }
 
   validates :name, presence: true, length: { in: 3..12 }, uniqueness: true
+
+  def current_salesman_name
+    'current_salesman_name'
+  end
+
+  def user_can_change_salesman?
+    true
+  end
 end

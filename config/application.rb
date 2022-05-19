@@ -15,5 +15,9 @@ module R5template
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    # show current exercise from system environment
+    config.year = (ENV['YEAR'] || Time.zone.today.year).to_i
+    config.year_last_digit = config.year.to_s[-1]
   end
 end
