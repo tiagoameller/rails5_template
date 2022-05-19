@@ -18,8 +18,31 @@
 #  index_users_on_email                 (email) UNIQUE
 #  index_users_on_reset_password_token  (reset_password_token) UNIQUE
 #
-require 'rails_helper'
 
-RSpec.describe User, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+FactoryBot.define do
+  factory :user do
+    factory :basic_user do
+      admin_level { :basic }
+    end
+    factory :commercial_user do
+      admin_level { :commercial }
+    end
+    factory :delivery_user do
+      admin_level { :delivery }
+    end
+    factory :delivery_super_user do
+      admin_level { :delivery_super }
+    end
+    factory :office_user do
+      admin_level { :office }
+    end
+    factory :admin_user do
+      admin_level { :admin }
+    end
+
+    name { 'user' }
+    email { 'user@pounou.com' }
+    password { '123456' }
+    admin_level { :office }
+  end
 end

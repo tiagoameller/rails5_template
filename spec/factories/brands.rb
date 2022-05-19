@@ -8,6 +8,8 @@
 #  updated_at :datetime         not null
 #  yes_or_not :boolean          default(FALSE)
 #
-class Brand < ApplicationRecord
-  validates :name, presence: true
+FactoryBot.define do
+  factory :brand do
+    name { Faker::Lorem.word }
+  end
 end
