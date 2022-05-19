@@ -25,4 +25,6 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
 
   enum admin_level: { basic: 0, commercial: 1, design: 2, delivery: 3, delivery_super: 4, office: 5, admin: 7 }
+
+  validates :name, presence: true, length: { in: 3..12 }, uniqueness: true
 end
