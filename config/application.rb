@@ -23,5 +23,7 @@ module R5template
     # http://www.createdbypete.com/articles/working-with-locales-and-time-zones-in-rails/
     config.time_zone = 'Madrid'
     config.active_record.default_timezone = :local
+
+    config.middleware.use I18n::JS::Middleware
   end
 end

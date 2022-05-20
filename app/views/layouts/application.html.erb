@@ -10,22 +10,27 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
     <% unless Rails.application.config.year == Time.zone.today.year %>
-    <%# show 2017 in other color when still in 2016 %>
-    <style>
-      .navbar-dark {
-        background-color: darkblue !important;
-      }
-      .navbar-dark .navbar-nav > .open > a,
-      .navbar-dark .navbar-nav > .open > a:hover,
-      .navbar-dark .navbar-nav > .open > a:focus {
-        background-color: darkblue !important;
-      }
-      .navbar-dark .navbar-toggler:hover, .navbar-dark .navbar-toggler:focus {
-        background-color: darkblue !important;
-      }
-    </style>
-  <% end %>
+      <%# show 2017 in other color when still in 2016 %>
+      <style>
+        .navbar-dark {
+          background-color: darkblue !important;
+        }
+        .navbar-dark .navbar-nav > .open > a,
+        .navbar-dark .navbar-nav > .open > a:hover,
+        .navbar-dark .navbar-nav > .open > a:focus {
+          background-color: darkblue !important;
+        }
+        .navbar-dark .navbar-toggler:hover, .navbar-dark .navbar-toggler:focus {
+          background-color: darkblue !important;
+        }
+      </style>
+    <% end %>
   </head>
+
+  <script>
+    I18n.defaultLocale = "<%= I18n.default_locale %>";
+    I18n.locale = "<%= I18n.locale %>";
+  </script>
 
   <body class="<%= controller_name %> <%= action_name %>">
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark sticky-top">

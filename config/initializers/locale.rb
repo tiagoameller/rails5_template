@@ -5,3 +5,4 @@ I18n.load_path += Dir[Rails.root.join('config', 'locales', 'controllers', '*.yml
 I18n.load_path += Dir[Rails.root.join('config', 'locales', 'mails', '*.yml').to_s]
 I18n.load_path += Dir[Rails.root.join('config', 'locales', 'models', '*.yml').to_s]
 I18n.load_path += Dir[Rails.root.join('config', 'locales', 'views', '*.yml').to_s]
+I18n.load_path += Dir[Rails.root.join('config', 'locales', 'frontend', '*.yml')]

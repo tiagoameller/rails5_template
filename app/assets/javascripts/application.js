@@ -19,4 +19,6 @@
 //= require_tree .
 //= require_tree ./global/
 //= require_tree ./models/
+//= require i18n/translations
+
 

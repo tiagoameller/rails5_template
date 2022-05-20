@@ -48,7 +48,8 @@ gem 'jquery-rails'
 gem 'momentjs-rails'
 
 gem 'rails-i18n'
-# gem 'i18n-js'
+gem 'devise-i18n'
+gem 'i18n-js', '~> 3.9', '>= 3.9.2'
 
 gem 'semver2'
 
