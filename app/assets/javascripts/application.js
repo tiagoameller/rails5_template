@@ -16,30 +16,7 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
-//= require moment
-//= require moment/ca.js
-//= require moment/en-gb.js
 //= require_tree .
-//= require_tree ../../../vendor/vanillajs-datepicker/js/.
+//= require_tree ./global/
+//= require_tree ./models/
 
-$(document).on('turbolinks:load', function() {
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-  var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
-  })
-
-  const elems = document.querySelectorAll('.datepicker_input');
-  for (const elem of elems) {
-    // date comes in rails format
-    const convertDate = moment(elem.value, 'YYYY-MM-DD');
-    elem.value = moment(convertDate).format('DD/MM/YYYY');
-    const datepicker = new Datepicker(elem, {
-      language: 'ca',
-      // language: 'en-gb',
-      clearBtn: true,
-      todayBtn: true,
-      autohide: true,
-      title: elem.getAttribute('data-title')
-    });
-  }
-})

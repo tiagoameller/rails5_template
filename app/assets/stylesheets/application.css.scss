@@ -13,40 +13,9 @@
  *= require_tree ../../../vendor/vanillajs-datepicker/css/.
  *= require_self
  *= require_tree .
+ *= require_tree ./models/
+ *= require_tree ./global/
 */
 
 @import "bootstrap";
 @import 'bootstrap_icons';
-
-.version_text {
-  font-size: small;
-}
-.year_text {
-  margin: 18px 0;
-  font-size: 1.25em;
-  height: 20px;
-  font-weight: bolder;
-}
-
-.avatar-circle {
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: relative;
-}
-
-.avatar-text {
- color: #fff;
- transform: translate(-50%, -50%);
- left: 50%;
- top: 50%;
- position: absolute;
-}
-
-nav li .avatar-circle{
- width: 32px;
- height: 32px;
- margin: 8px 0 0 16px;
- border-radius: 50%;
-}

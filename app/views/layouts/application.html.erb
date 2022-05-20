@@ -28,13 +28,13 @@
   </head>
 
   <body class="<%= controller_name %> <%= action_name %>">
-    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark sticky-top">
       <div class="container-fluid">
         <ul class="nav navbar-brand">
           <li class="nav-item">
             <%= link_to(image_tag("pou_nou.png"), home_page) %>
           </li>
-          <li class="ms-2 fw-bolder fs-4 align-middle">
+          <li class="ms-2 pt-1 fw-bolder fs-4 align-middle">
             <%= Rails.application.config.year %>
           </li>
           <li class="ms-2 pt-2 version_text align-middle">
