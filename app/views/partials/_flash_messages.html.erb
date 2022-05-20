@@ -14,7 +14,7 @@
 </svg>
 
 <% flash.each do |name, msg| %>
-  <%= tag.div class: "alert alert-#{alert_class(name)} alert-dismissible mt-2 fade show", role: "alert" do %>
+  <%= tag.div class: "alert alert-#{alert_class(name)} alert-dismissible fade show", role: "alert" do %>
      <%= tag.svg class:"bi flex-shrink-0 me-2", width: "24", height: "24", role: :img, 'aria-label': name do %>
        <%= tag.use 'xlink:href': "##{alert_class(name)}-icon" %>
      <% end%>
