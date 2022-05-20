@@ -3,6 +3,8 @@ class UsersController < ApplicationController
 
   def set_locale
     new_locale = params[:locale].to_sym
+    return if I18n.locale == new_locale
+
     raise ArgumentError unless I18n.available_locales.include?(new_locale)
 
     if @user.update(locale: new_locale)

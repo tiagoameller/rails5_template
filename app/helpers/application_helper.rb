@@ -7,4 +7,17 @@ module ApplicationHelper
       new_user_session_path
     end
   end
+
+  def alert_class(alert)
+    case alert
+    when 'notice'
+      'success'
+    when 'alert'
+      'warning'
+    when 'error'
+      'danger'
+    else
+      'primary'
+    end
+  end
 end
