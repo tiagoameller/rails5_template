@@ -9,7 +9,7 @@ class UsersController < ApplicationController
 
     if @user.update(locale: new_locale)
       I18n.locale = new_locale
-      redirect_back fallback_location: root_path, notice: I18n.t('controllers.locale_changed')
+      redirect_back fallback_location: root_path, flash: { info: I18n.t('controllers.locale_changed') }
     else
       redirect_back fallback_location: root_path, flash: { error: I18n.t('views.errors.cannot_change_status') }
     end
