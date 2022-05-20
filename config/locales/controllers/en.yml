@@ -1,0 +1,6 @@
+en:
+  controllers:
+    created: Brand was successfully created.
+    updated: Brand was successfully updated.
+    destroyed: Brand was successfully destroyed.
+    locale_changed: Changed locale

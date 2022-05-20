@@ -1,0 +1,508 @@
+ca:
+  views:
+    warehouse_stocks: "Stocks per magatzems"
+    limbos_explanation: "Limbos són articles als que lis falta l'estampat, talla o color per haver sigut canviats en un canvi d'exercici"
+    select_items_group: "Cal seleccionar un grup d'articles"
+    include_optional_customers: "Opcionalment, seleccioni altres clients. El client de la comanda sempre està inclòs"
+    optional_customer: "Client opcional n. %{counter}"
+    create: 'Crear'
+    create_orders_from_smart_groups: "Crear comandes"
+    order_must_be_on_creation_for_editing_smart_groups: 'Només es poden utilitzar grups a comandes en creació'
+    tooltip_clear_line: "Esborra unitats tota la línia"
+    tooltip_new_line: "Nova línia"
+    tooltip_duplicate_line: "Duplica línia"
+    tooltip_delete_line: "Esborra línia"
+    tooltip_duplicate_units: "Duplica unitats client anterior"
+    adjusted: 'Regularitzat'
+    all_orders_report: 'Llistar totes les comandes'
+    all: 'Tots'
+    application_title: 'Pou Nou Backoffice'
+    are_you_sure: 'Estàs segur?'
+    author_orders_report: 'Llistats sobre unitats comandades per autor'
+    author_report_on_explanation: "Recordar canviar els camps seleccionats: article, estampat o color"
+    author_report_on: "Llistar sobre article, estampat o color"
+    author_sales_report: 'Llistats sobre unitats venudes per autor'
+    back: 'Tornar'
+    before_recalc_due_dates_confirm: "Aquesta acció eliminarà venciments existents. Està segur?"
+    reset_serviced_notifications_confirm: "Aquesta acció restablirà els correu de notificacions. Està segur?"
+    reset_serviced_notifications_hint: "Aquesta acció activará de nou les notificacions"
+    breakdown: 'Desglossament'
+    calc_invoice_due_dates: 'Calcular venciments'
+    calc_sheet: 'Excel'
+    cashed: 'Cobrat'
+    cashes: 'Cobraments'
+    change_status_to_deposit: "Canviar estat d'albarà a 'en depòsit'"
+    collection_is_closed: "Aquesta col·leccio està tancada"
+    compact: 'Compacte'
+    compact_order: 'Compactar comanda'
+    contacts_report: 'Llistat selectiu sobre contactes'
+    costs: 'Costos'
+    creation_date: 'Data creació'
+    creation_order: 'Ordre'
+    custom_selection: 'Selecció a mida'
+    customer_orders: "Comandes d'aquest client"
+    customers: 'Clients'
+    dates: 'Dates'
+    delayed_report: "Sol·licitar email"
+    delivery_note: "Albarà"
+    delivery_notes_report: 'Llistat selectiu albarans i factures'
+    destroy: 'Esborrar'
+    detail: 'Detall'
+    dimiss: 'Entesos'
+    directory: 'Accés directe:'
+    doc_numbers: "Núms. document (espais davant)"
+    due_dates: 'Venciments'
+    edit: 'Modificar'
+    equal_to: 'Igual a'
+    field: 'Camp'
+    fields: 'Camps'
+    filter: 'Filtrar'
+    former_years_code: 'Codi estampants anys anteriors'
+    former_years_year: 'Anys anteriors'
+    from: 'Des de'
+    fso_code_or_comment: "Codi 12 dígits. * = comentari"
+    full: 'Plens'
+    generate_purchase_orders: 'Generar'
+    go_to_purchase_order: 'Anar a comanda'
+    history_adjustments: 'Historial sobre regularitzacions'
+    history_orders: 'Historial sobre comandes'
+    history_purchase_orders: 'Historial sobre comandes proveïdor'
+    history_purchases: 'Historial sobre entrades magatzem'
+    history_sales: 'Historial sobre vendes'
+    history: 'Historial'
+    ignore_no_stock_items: 'Descartar articles sense stock'
+    ignore_stampings: 'Ignorar estampats'
+    include_stocks: "Restar estocs"
+    index: 'Llista de '
+    invoice_customer_data: 'Dades client comodí'
+    invoice_due_dates_report: 'Llistat previsions cobrament'
+    invoice: 'Factura'
+    invoices: 'Factures'
+    invoicing: 'Facturació'
+    item_abstracts: 'Extractes sobre article'
+    item_codes: "Codis d'article"
+    item_refs: "Referències d'article"
+    item_reports: 'Llistats sobre articles'
+    items_report: 'Llistat selectiu sobre articles'
+    items_used_in_orders: 'Articles utilitzats en comades'
+    labels: 'Etiquetes'
+    last_activity: 'Darrera activitat'
+    last_created: 'Darrer element creat'
+    lines: "Línies"
+    main: 'Principal'
+    massive_print: "Impressió massiva"
+    modes: 'Visibilitat'
+    must_select_column_fields_for_order_by: "Si ordena per client o venedor, cal triar els camps corresponents"
+    new: 'Crear'
+    next_code: 'Proper codi'
+    no_desc: 'Sense descripció'
+    no_invoice_customer_data: 'No hi ha dades de client comodí'
+    not_matches_found: 'No es troben coincidències'
+    open_package_lists: "Continguts de caixa oberts de clients que han demanat aquest article"
+    order_by: 'Ordenat per'
+    order_codes: 'Codis de comanda'
+    order: 'Ordre'
+    orders_are_closed_explanation: "Quan està marcat, en demanar més unitats de les previstes sortirà una advertència"
+    orders_report: 'Llistat selectiu sobre comandes'
+    other: 'Altres dades'
+    over_purchase_report: "Informe quantitat rebuda supera demanada a proveedor"
+    package_list_cache_on_calc: "Encara s'està calculant el pendent d'aquest client"
+    pages: 'Pàgines'
+    payment_due_percent_howto: '0% = dividir import'
+    pending: 'Pendent'
+    plain_stocks_report: 'Sense subtotals'
+    please_select: 'Si us plau, seleccioni'
+    prepare: "Preparació. A partir de comandes GESTIONADES cerca si hi ha continguts de caixa"
+    prices: 'Preus'
+    print: 'Imprimir'
+    printed_at: 'Imprès a'
+    process_orders: 'Gestionar'
+    process: 'Processar'
+    purchase_order_created_auto: 'Comanda creada automàticament'
+    purchase_orders_report: 'Llistat selectiu sobre comandes de proveïdor'
+    purchases_report: 'Llistat selectiu sobre entrades de magatzem'
+    read_only: 'Només consulta'
+    recalc_serviced: 'Recalcular unitats servides sobre aquest client o proveïdor'
+    receipts: 'Rebuts'
+    remove_customer_filter: "Eliminar filtre de client"
+    remove_from_selection: "Descartar"
+    report_help: 'Com utilitzar el camp de selecció a mida'
+    report_title: 'Títol del llistat'
+    report_was_queued: "El llistat o procés s'ha afegit a la cua. El rebreu per correu electrònic quan estigui disponible"
+    report: 'Llistat'
+    reports: 'Llistats'
+    reserve_order: 'Reservar comanda'
+    reset_serviced_notifications: 'Restablir notificacions per email'
+    restart_search: 'Reiniciar cerca'
+    restore_on_creation_status: "Tornar a 'en creació'"
+    return_to_top: 'Tornar a dalt'
+    sales_report: 'Llistats sobre unitats venudes'
+    same_vat_number: 'Mateix NIF'
+    save: 'Guardar'
+    scanned: 'Escan.'
+    select_autocomplete: 'Seleccioni %{model_name}. ** mostra tots els elements'
+    select_customer: "Seleccionar client"
+    select: 'Seleccioni %{model_name}.'
+    send_email: "Enviar email"
+    send_stocks_to_customer: "Enviar estocatge al client"
+    send_test_email: "Enviar un correu de prova utilitzant el servei de coes"
+    sepa_file: 'Descarregar fitxer SEPA'
+    service_order: 'Servir / tancar comanda'
+    show: 'Fitxa'
+    sisventa_sent: 'Enviat a SisVenta'
+    sizes_signature_explanation: "Cal entrar almenys les 15 primeres lletres en minúscules separades per guions (xs-s-m-l-xl)"
+    some_orders_have_banners: "Alguns articles tenen cartell"
+    sort: 'Ordenar'
+    status_must_be_validated: "L'albarà ha d'estar validat per poder canviar a dipòsit"
+    statuses: 'Estats'
+    stock_report: "Llistat d'estocatge"
+    stock_type_for: "Estocatge %{stock_type}"
+    stock_type: "Tipus d'estocatge"
+    stocks_color_size: 'Estocatges per color i talla'
+    stocks_color: 'Estocatges per color'
+    stocks_item: 'Estocatges per article'
+    stocks_size: 'Estocatges per talla'
+    stocks: 'Estocatges'
+    summary: 'Resum'
+    table_formatted: 'Format taula'
+    table: 'Taula'
+    to: 'Fins'
+    todo: 'Contingut no disponible en aquesta versió'
+    undefined: 'No definit'
+    undo_validate_entry: 'Desfer validació %{model}'
+    unknown: "Desconegut"
+    unvalidate_adjustment: 'Reobrir regularització'
+    unvalidate_delivery_note: "Reobrir albarà"
+    unvalidate_invoice: "Desfacturar"
+    unvalidate_order: "Reobrir comanda"
+    unvalidate_package_list: 'Reobrir contingut de caixa'
+    use_ctrl_click: 'Utilitzeu ctrl+click per a multi selecció. Si voleu seleccionar un element concret per "des de/fins", utilitzeu el codi'
+    use: 'Utilitzi'
+    validate_adjustment: 'Validar regularització'
+    validate_delivery_note: "Validar albarà"
+    validate_entry: 'Validar %{model}'
+    validate_invoice: "Facturar"
+    validate_order: 'Validar comanda'
+    validate_package_list: 'Validar contingut de caixa'
+    validation_date: 'Data validació'
+    void_order: 'Anul·lar comanda'
+    waiting: 'Esperant ...'
+    warning: "Avís important!"
+    wildcard_sales: "Vendes article comodí"
+    commercial_invoices:
+      title: 'Factures del comercial'
+      email_warning: "S'enviarà la factura per email al client. Confirmar?"
+      due_date: "Venciment"
+      due_dates: "Venciments"
+    contact_form:
+      identification: 'Identificació'
+      address: 'Domicili'
+      contact: 'Contacte'
+      invoicing: 'Facturació'
+      misc: 'Varis'
+    howto:
+      vat_number: 'Faci servir el format "ESB07559974" per entrar NIF tant nacionals com estrangers. Pot quedar en blanc.'
+      bic: 'Necessari per a domiciliar rebuts segons normes SEPA/CORE o SEPA/B2B.'
+      b2b: 'Indiqui si aquest client accepta rebuts SEPA/B2B.'
+      sepa_signature: 'Data de firma del mandat.'
+      account: 'Consulti al seu comptable.'
+      default_salesman: 'Venedor principal (opcional)'
+      sisventa_email: "Si hi ha més d'un correu, separi'ls per comes"
+      user_rate: "Quan aquest usuari doni d'alta clients, s'aplicarà aquesta tarifa"
+      user_vat_excluded: "Quan aquest usuari doni d'alta clients, s'aplicarà exclusió d'IVA sí o no"
+      user_wants_direct_invoice: "Quan aquest usuari doni d'alta clients, s'aplicarà si vol factura directa o no"
+      manually_changing_status: "Atenció! canviar l'estat des d'aquí no genera correus"
+      sisventa_code: "Aquest codi ha de coincidir amb el número d'empresa a SisVenta"
+    flash_messages:
+      adjustment_status_unvalidated: 'Regularització reoberta amb èxit'
+      adjustment_status_validated: 'Regularització validada amb èxit'
+      commercial_change_status: 'Els comercials no poden marcar aquest estat'
+      copied_to_cliboard: "S'han copiat %{item_count} línies"
+      current_salesman_successfully_changed: "Venedor cambiat amb èxit"
+      customer_is_no_in_salesman_list: "El client no figura dins la llista de venedors"
+      cut_to_cliboard: "S'han TALLAT %{item_count} línies"
+      delivery_note_status_in_deposit_success: "Albarà canviat a 'en depòsit'"
+      delivery_note_status_unvalidated: 'Albarà reobert amb èxit'
+      delivery_note_status_validated: 'Albarà validat amb èxit'
+      duplicate_doc_number: "Numerador duplicat. Revisi numeració de sèries"
+      invalid_stco_for_item: "Estampat o color no válids per aquest article: %{item}"
+      invoice_due_dates_calculated: "Venciments calculats amb èxit"
+      item_not_found: 'El %{model_name} no existeix o ha sigut esborrat per un altre usuari'
+      item_successfully_created: '%{model_name} desat a la base de dades'
+      item_successfully_destroyed: 'El %{model_name} ha sigut esborrat'
+      item_successfully_updated: 'Modificació al %{model_name} desada a la base de dades'
+      master_successfully_created: '%{model_name} desat. Ara pot entrar el subdetall'
+      missing_itstcosi: "No s'ha pogut realitzar l'acció perquè algun article, estampat, talla o color han sigut esborrats"
+      must_provide_columns: 'Cal indicar quins camps es volen llistar'
+      no_records_found: "No s'han trobat registres"
+      order_closed: 'Comanda marcada com a tancada, per tenir unitats sense servir'
+      order_compacted: 'La comanda ha sigut compactada amb èxit'
+      order_not_editable: 'Comanda ja no està en creació. No es pot modificar'
+      order_serviced: 'Comanda marcada com a servida, totes les unitats estaven servides'
+      order_status_changed: 'Situació de la comanda modificada amb èxit'
+      order_status_validated: 'Entrada validada amb èxit'
+      order_undo_validate: "Validació d'entrada anul·lada amb èxit"
+      ordered_more_than_available: "S'han demanat unitats de combinacions que no estan ni disponibles ni previstes"
+      orders_created_or_updated: "S'han creat o modificat %{count} comandes"
+      package_list_status_unvalidated: 'Llista de continguts de caixa reoberta amb èxit'
+      package_list_status_validated: 'Llista de continguts de caixa validada amb èxit'
+      password_successfully_changed: 'Contrasenya canviada amb èxit'
+      pasted_from_cliboard: "Línies afegides: %{item_count}"
+      processed_orders: "S'han marcat %{count} comandes com a gestionades"
+      purchase_order_generated: 'Comanda de proveïdor generada correctament'
+      recalc_incidences: "ATENCIÓ! Algunes unitats no s'han marcat com a servides per tenir data comanda superior a data servit"
+      report_generated: 'El llistat ha sigut generat'
+      reset_serviced_notifications: "Notificacions per email restablertes amb èxit."
+      serviced_recalculated: "Unitats servides sobre comandes recalculades amb èxit"
+      should_enter_report_selection: 'Cal entrar la selecció del llistat'
+      sql_error: 'Selecció incorrecta per al llistat'
+      this_process_just_one_supplier: 'Per aquest procés cal tenir un i només un proveïdor seleccionat'
+      to_many_processed_orders: "Per seguretat, no es poden marcar més de %{max} comandes com a processades. Seleccionades: %{count}"
+      user_has_no_rights: 'Acció restringida per aquest usuari'
+    duplicate:
+      text: 'Duplicar'
+      placeholder: 'Valor per aquest camp que tindrà el duplicat'
+      success: '%{model_name} duplicat amb èxit'
+      error: 'Error creant un duplicat'
+    apply_massive_discount:
+      title: "Aplicar descompte"
+      placeholder: "S'aplicarà a totes les línies que no siguin albarans de factura diferida"
+      applied: "S'ha aplicat descompte a totes les línies"
+    change_sequence:
+      title: "Canviar sèrie"
+      placeholder: "El canvi de sèrie implica perdre la numeració anterior"
+      applied: "S'ha canviat la sèrie amb èxit"
+      must_be_different: "La nova sèrie no pot ser la mateixa"
+    dependent:
+      error: 'No es pot esborrar el %{model_name} per tenir elements dependents'
+      not_assigned: 'No assignat'
+      add_item: 'Afegir %{model_name}'
+      apply_library: 'Aplicar llibreria'
+      apply_library_success:
+        one: 'Llibreria "%{library_name}" aplicada amb èxit. Creat un nou registre'
+        other: 'Llibreria "%{library_name}" aplicada amb èxit. Creats %{count} nous registres'
+      apply_library_error: 'Error aplicant llibreria'
+    stamping_secondary:
+      clear: 'Llevar estampat secondari'
+    item_price:
+      all_stampings: 'Tots els estampats'
+      all_sizes: 'Totes les talles'
+    item_cost:
+      all_colors: 'Tots els colors'
+      all_sizes: 'Totes les talles'
+  datatables:
+    emptyTable:     "No s'han trobat registres"
+    info:           'Mostrant _START_ a _END_ de _TOTAL_ registres'
+    infoEmpty:      'Mostrant 0 a 0 de 0 registres'
+    infoFiltered:   "(Filtrat d'un total de _MAX_ registres)"
+    infoPostFix:    ''
+    thousands:      '.'
+    lengthMenu:     'Mostrant _MENU_ registres'
+    loadingRecords: 'Carregant ...'
+    processing:     'Processant ...'
+    search:         'Filtrar:'
+    zeroRecords:    "No s'han trobat registres"
+    paginate:
+      first: '«'
+      last: '»'
+      next: '›'
+      previous: '‹'
+    search_placeholder_salesman: "Per filtrar per venedor: /white/"
+  tooltips:
+    click_for_help: 'Click aquí per saber-ne més'
+    multiselect_help: 'Polsar la tecla Ctrl a la vegada que clica per multiseleccionar'
+    rate_zero_for_no_price: 'Tarifa 0 no imprimeix preu'
+    stock_available_explained: 'Disponible actualment'
+    stock_pending_explained: 'Aquest estoc inclou peces que encara no han entrat al nostre magatzem'
+    fso_code_help: "Cercar en majúscules. Opcions disponibles: <REF> *<CODI> /<NOM> .<CODI_ESTAMPAT> +<CODI_COLOR> -<TALLA> 12 dígits"
+    unvalidate: "Canvia l'estat a 'validat'"
+    compact: 'Per comandes ONLINE, agrupa talles i colors'
+    internal_notes_help: "Aquest camp no és visible pels clients"
+    manufacturing_warning_help: "Aquest camp no és visible pels clients i es mostarà en les tasques de magatzem"
+    limbos: "Rebreu un informe de limbos d'aquesta entrada per email"
+  coffee:
+    prompts:
+      are_you_sure: "N'estàs segur?"
+      discard_changes: "Es perdran les modificacions fetes. Countinuar?"
+  layout:
+    files: 'Fitxers'
+    orders: 'Comandes'
+    logout: 'Tancar sessió'
+  session:
+    remember_me: "Recorda'm en aquest ordinador durant 15 dies"
+    email: 'Correu electrònic'
+    password: 'Contrasenya'
+    login: 'Iniciar sessió'
+    invalid_user: 'Usuari o contrasenya incorrectes'
+    admin: 'Administrar'
+    user_list: 'Llista usuaris'
+    please_login: 'Si us plau, inicieu sessió'
+    invalid_user_signature: 'Hi ha un problema amb el vostre compte, si us plau contacteu amb un administrador'
+    profile: 'Perfil'
+    change_password: 'Canviar contrasenya'
+    close_session: 'Tancar sessió'
+    use_gravatar: 'Utilitzeu Gravatar per a definir una foto de perfil'
+    not_logged_yet: 'Encara no ha iniciat sessió'
+    suggested_browsers: 'Aquesta aplicació està dissenyada per a funcionar amb les darreres versions dels navegadors Google Chrome, Mozilla Firefox, Safari o Internet Explorer 9+'
+    change_current_salesman: "Canviar de venedor"
+    no_salesman: "Sense venedor"
+  items_spot_missing_details:
+    btn: Sense detall
+    none: "No s'ha trobat cap article sense algun detall"
+    any: "La llista d'articles sense algun detall s'ha enviat per email"
+    title: "%{year}. Llistat articles sense algun detall"
+  will_paginate:
+    next_label: '>'
+    previous_label: '<'
+    page_entries_info:
+      single_page:
+        zero:  "No hi ha cap %{model}"
+        one:   "Mostrant 1 %{model}"
+        other: "Mostrant tots %{count} %{model}"
+      single_page_html:
+        zero:  "No s'ha trobat cap %{model}"
+        one:   "Mostrant <b>1</b> %{model}"
+        other: "Mostrant <b>tots&nbsp;%{count}</b> %{model}"
+      multi_page: "Mostrant %{model} %{from} - %{to} d'un total de %{count}"
+      multi_page_html: "Mostrant %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> d'un total de <b>%{count}</b>"
+  errors:
+    cannot_change_status: "No es pot canviar estat d'un albarà facturat diferidament"
+    customer_is_locked: 'El client està bloquejat, no es pot utilitzar'
+    due_percents_must_sum_100: "El total de percentatges ha de sumar 100"
+    from_to_sizes_both_exists_or_are_nil: 'Cal indicar talla inici i talla final o bé no indicar-ne cap'
+    key_violation: 'Element repetit a %{model_name}'
+    must_remove_due_dates_before_uninvoicing: "S'han d'esborrar manualment els venciments abans de desfacturar"
+    salesman_have_not_this_brand: "Aquest venedor no porta la marca %{brand_name}"
+    unique_package_list_number: "El número de caixa no es pot repetir per el mateix client i sèrie"
+    missing_locale: Idioma no suportat
+  stock_receiving:
+    no_pending_found: "No s'han trobat unitats pendents de servir"
+    received_more_than_pending: "S'han rebut més unitats de les demanades al proveïdor"
+    received_less_than_pending: "S'han rebut menys unitats de les demanades al proveïdor"
+    received_remaining_stock: "S'han rebut totes les unitats que faltaven"
+    cause: 'Motiu'
+    incidences: "Incidències"
+  delivery:
+    title: "Creació entregues a partir de continguts de caixa"
+    search_package_lists: 'Cercar continguts de caixa'
+    package_lists_found: "Continguts de caixa que formaran part de l'albarà"
+    not_package_lists_found: "No s'han trobat continguts de caixa"
+    create_delivery_notes: 'Crear albarans'
+    create_invoices: 'Crear factures'
+    no_selected_items: "No hi ha continguts de caixa seleccionats"
+    no_sequence_provided: "Cal indicar la sèrie d'albarans"
+    no_collection_provided: "No s'ha indicat col·lecció"
+    package_number: "CAIXA NOMBRE:"
+    delivery_note_created: "S'han creat albarans"
+    invoice_created: "S'han creat factures"
+    all_packages_must_be_from_same_customer: "Tots els continguts de caixa han de ser del mateix client"
+    customer_has_duplicated_brands: "Aquest client té més d'un venedor servint la mateixa marca"
+    cannot_find_salesman: "No s'ha trobat cap venedor per aquest client i marca"
+  accounting_export:
+    title: "Exportació comptable"
+    generate_invoices: 'Factures'
+    generate_cashes: 'Cobraments'
+    generate_discounts: 'Descomptes'
+    which_items: 'Quins elements?'
+    only_not_exported: 'Només sense exportar'
+    export_generated: "Exportació generada. %{count} factures exportades"
+  intrastat_export:
+    title: "Exportació INTRASTAT"
+    export_csv: 'Exportar fitxer CSV'
+    export_xls: 'Factures per client'
+    sequence_explanation: "S'inclouen albarans, ja que aquest llistat treu les dades a nivell de línia i les factures diferides no tenen línies pròpies"
+    report_type: "Tipus informe"
+    detailed: "Detallat"
+    simplified: "Simplificat"
+  deferred_invoicing:
+    title: "Facturació diferida"
+    created: "S'han creat factures"
+    one_invoice_by_delivery_note: "Una factura per albarà"
+    generate_invoices: "Generar factures"
+    invoice_date: 'Data de factura'
+    invoice_sequence: "Sèrie de factura"
+    total_invoice: 'Total factura'
+    search_invoices: 'Cercar albarans'
+    preview: "Vista prèvia"
+    same_collection: "Tots els albarans han de ser de la mateixa col·lecció que la factura"
+    warning_locked_customers: "Atenció! hi ha clients bloquejats"
+    warning_some_customers_have_duplicated_brands: "Atenció! Alguns clients tenen marques duplicades"
+    warning_some_customers_have_no_salesman: "Atenció! Alguns clients no tenen venedor"
+    this_sequence_has_no_brand_defined: "Aquesta sèrie no té marca, per tant no s'ha cercat venedor"
+    no_sequence_provided: "Cal indicar la sèrie de factura"
+  generate_bank_batches:
+    title: "Generació de remeses bancàries"
+    search_invoice_due_dates: 'Cercar venciments'
+    invoice_due_dates_found_number: "S'han trobat %{count} venciments"
+    invoice_due_dates_found: "Venciments que formaran part de la remesa"
+    not_invoice_due_dates_found: "No s'han trobat venciments"
+    no_selected_items: "No hi ha venciments seleccionats"
+    no_bank_provided: "Cal indicar el banc de la remesa"
+    bank_batch_created: "S'ha creat una remesa"
+    create_bank_batch: 'Crear remesa'
+    only_not_casehd_nor_batched: "No es tindran en compte venciments ja cobrats o inclosos en altres remeses"
+    desc: "Descripció de la remesa"
+    bank_batch_presented: 'Remesa marcada com a presentada'
+    bank_batch_closed: 'Remesa marcada com a tancada'
+    present: 'Presentar'
+    close: 'Liquidar'
+    present_explanation: "Data de presentació al banc"
+    close_explanation: "Data de cobrament. Marca els venciments com a cobrats i comptabilitzables"
+  massive_invoice_printing:
+    title: "Impressió massiva d'albarans, factures i rebuts"
+    search: "Cercar documents"
+    printed: "Generat fitxer de documents llest per a imprimir"
+    items_found: "S'han trobat documents"
+  clipboard:
+    copied: "S'ha copiat al portaretalls"
+    copy_to: "Copiar al portaretalls"
+    copy: 'Copiar'
+    cut: "Tallar"
+    delete_after_paste: "Esborrar portaretalls després d'aferrar"
+    missing: "Cal entrar un nom i tenir almenys un registre seleccionat"
+    paste: 'Aferrar'
+    placeholder: "Descripció per aquest portaretalls"
+    title: "Portaretalls"
+    toggle_sign: "Invertir signe a unitats"
+    not_same_year: "ATENCIO! dades provenen d'un altre exercici. Codi serà comodí i preus poden no ser-hi"
+    remove_wildcards: "Esborrar articles comodí"
+    wildcards_removed: "Articles comodí esborrats"
+  invoice:
+    next: 'Segueix ...'
+    date: 'Data:'
+    page: 'Pàgina:'
+    due_dates: 'Venciments:'
+    payment_method: 'Domicili de Pagament:'
+    issued_on: 'Localitat Expedició:'
+    delivery_note_count: 'Nombre Albarans:'
+    taxable_base: 'Base Imp.'
+    vat: '%IVA'
+    vat_amount: 'Quota I.V.A.'
+    equivalence_surcharge: '%REC'
+    req_amount: 'Quota Rec.'
+  inventory:
+    sheet_abr: "Fulla inventari"
+    sheet: "Fulla per actualitzar inventari físic"
+    inventory: 'Inventari'
+    success: "Inventari aplicat amb èxit"
+    fail: "Cal pujar una fulla d'inventari vàlida"
+  files:
+    download: 'Descarregar'
+    upload: 'Carregar'
+    upload_fail: "No es pot carregar fitxer o format incorrecte"
+    upload_success: "Fitxer carregat correctament"
+    bad_format: 'Format del fitxer incorrecte'
+    download_fail: "El fitxer sol·licitat no existeix"
+  ordered_delivered_report:
+    title: 'Llistat demanat i servit'
+    main: 'General'
+    ordered: 'Demanat'
+    delivered: 'Servit'
+  rate:
+    no_pvp: No PVP
+    order: PVP Sí/No segons client
+    1: Tarifa 1
+    2: Tarifa 2
+    3: Tarifa 3
+
+

@@ -1,0 +1,618 @@
+en:
+  attributes:
+    account: 'Account'
+    accounted: 'Recorded' # comptabilitzat = recorded o counted
+    active: "Active"
+    address: 'Address'
+    address1: 'Address 1'
+    address2: 'Address 2'
+    address3: 'Address 3'
+    address4: 'Address 4'
+    address5: 'Address 5'
+    address6: 'Address 6'
+    admin_level: 'Admin level'
+    advanced_payment: 'Advanced payment'
+    alt_payment_method_id: 'Secondary payment method'
+    alt_payment_method: 'Secondary payment method'
+    amended_invoice_date: 'Amended invoice date'
+    amended_invoice: 'Amended invoice'
+    amount: 'Amount'
+    api_access: 'Grant API access'
+    api_b2b_url: 'API B2B URL'
+    api_b2b_warehouse_stocks: 'Send warehouse stocks to API B2B'
+    api_b2b: 'API B2B'
+    api_b2c_url: 'API B2C URL'
+    api_b2c_warehouse_stocks: 'Send warehouse stocks to API B2C'
+    api_b2c: 'API B2C'
+    api_token: 'API token'
+    appraised: 'Appraised'
+    author_id: 'Author'
+    author: 'Author'
+    auto_expand_smart_groups: "Expand stampings and colors in smart groups"
+    b2b_abbr: "B2B"
+    b2b: 'B2B'
+    b2c_abbr: "B2C"
+    b2c_price_esp: 'B2C Price Spain'
+    b2c_price_int: 'B2C Price Intl.'
+    b2c: 'B2C'
+    baby: "Baby"
+    bank_batch: "Remittance" #
+    bank: 'Bank'
+    banner_count: 'Lines with banner'
+    banner_id: 'Banner'
+    banner_units: 'Banner units'
+    banner: 'Banner'
+    banners: "Banners"
+    bic: 'BIC'
+    body: "Alert body"
+    brand_id: 'Brand'
+    brand: 'Brand'
+    cache_status: "Cache status"
+    can_use_smart_groups: "Can create orders using smart groups"
+    cashed_account: "Cashed account"
+    cashed: 'Cashed'
+    change_price: 'Edit official price'
+    child: "Child"
+    city: 'City'
+    clementina: 'Clemenentina'
+    code: 'Code'
+    collection_id: 'Collection'
+    collection: 'Collection'
+    collections_name: 'Collection name'
+    color_abbr: 'Col.'
+    color_code: 'Color code'
+    color_count: 'Color count'
+    color_id: 'Color'
+    color_name: 'Color name'
+    color: 'Color'
+    colors_name: 'Color name'
+    comments: 'Comments'
+    company_name: 'Owner/Company name'
+    cost: 'Cost price'
+    country_code: 'Country code'
+    country_code: 'Country ISO code'
+    country: 'Country'
+    created_at: 'Created at'
+    creditor_identifier: 'Creditor identifier'
+    creditor_name: 'Creditor name'
+    cuenta: 'Bank account'
+    custom1: 'Custom 1'
+    custom2: 'Custom 2'
+    customer_code: 'Customer code'
+    customer_comment: 'Customer comment'
+    customer_id: 'Customer'
+    customer_name: 'Customer name'
+    customer_names: "Customers"
+    customer_order: 'Y/Order'
+    customer: 'Customer'
+    date_cashed: "Charge date"
+    date_closed: "Settlement date"
+    date_created: "Creation date"
+    date_from: 'Visible from'
+    date_presented: "Submission date"
+    date_to: 'Visible until'
+    date: 'Date'
+    dc: 'DC'
+    delivered: 'Delivered'
+    delivery_date: "Delivery date"
+    delivery_notifications_email: 'Email for delivery notifications'
+    delivery_term: "Delivery_term"
+    deposit_customer: "Generate deposit delivery notes"
+    design_info: "Design Info"
+    direct_debit: 'Direct debit'
+    discount_abbr: 'Dis.'
+    discount: 'Discount'
+    doc_number: 'Document number'
+    document_discount_total_abbr: 'T.Dis.'
+    document_discount_total: 'Total General Discount'
+    document_discount: 'General Discount'
+    documents: 'Documents'
+    dropbox_url: "Dropbox folder address"
+    due_date: 'Due date'
+    due: 'Amount due' #Import =? Total adeudado
+    dues: "Receipts" # Rebuts =? Receipts (dues = cuota)
+    email: 'Email'
+    entidad: 'Entity'
+    equivalence_surcharge_abbr: 'Eq.S.'
+    equivalence_surcharge: 'Equivalence surcharge'
+    fax: 'Fax'
+    fifty_discount: 'COSHOP discount'
+    from_size_id: 'From size'
+    fso_code: '12-digit code'
+    fso_name: 'Description'
+    fso_ref: 'Reference'
+    girl: "Girl"
+    gross_cost: 'Gross cost'
+    gross_shipping: 'Shipping charges'
+    gross: 'Total gross'
+    has_banners: '%{count} lines have banner'
+    iban: 'IBAN'
+    id: 'Id'
+    image_url: "Image address"
+    index_data_page_size: 'Size paging in lists'
+    internal_notes: 'Commercial notes'
+    intrastat_code: 'Intrastat code'
+    intrastat: 'INTRASTAT?'
+    invoice_date: 'Invoice date'
+    invoice_email: 'Email for sending invoices'
+    is_author: 'Author'
+    is_comment: 'Comment'
+    is_customer: 'Customer'
+    is_deposit: "Only deposits"
+    is_salesman: 'Seller'
+    is_supplier: 'Supplier'
+    item_category_id: 'Category'
+    item_category: 'Category'
+    item_code: 'Item code'
+    item_id: 'Item'
+    item_name: 'Item name'
+    item_ref: 'Item reference'
+    item: 'Item'
+    items_name: 'Item name'
+    kind: 'Kind'
+    label_no_pvp: 'No price in label'
+    label_price: 'Retail price'
+    label_price1: 'Price label.1'
+    label_price2: 'Price label.2'
+    label_price3: 'Price label.3'
+    lang: 'Language'
+    last_logged: 'Last login'
+    last_sisventa_sent: 'Last delivery to SisVenta'
+    libraries_data_page_size: 'Size paging in libraries'
+    line_discount_total: 'Total Line Disct'
+    line_discount: 'Line Discount'
+    locked: 'Locked'
+    man: "Man"
+    manufacturing_warning: 'Delivery warning'
+    min_sale_units: 'Minimum unit sale'
+    mobile: 'Mobile'
+    mode_of_transport: 'Mode_of_transport'
+    mode: 'Mode'
+    name: 'Name'
+    nature_of_transaction: 'Nature_of_transaction'
+    new_salesman_id: 'Change to seller'
+    next_number: 'Next number'
+    nickname: 'Shop name'
+    notes: 'Notes'
+    number: "Number"
+    oficina: 'Office'
+    on_creation: "On creation"
+    order_id: 'Order'
+    order_item_id: "Order item id"
+    order: 'Order number'
+    ordered: "Ordered"
+    orders_are_closed_abbr: "Closed"
+    orders_are_closed: "Orders are closed"
+    origin_country: 'origin_country'
+    other: 'Other'
+    package_list_id: 'Package list'
+    package_list: 'Package list'
+    password_confirmation: 'Password confirmation'
+    password: 'Password'
+    payment_day: 'Payday'
+    payment_due_days1: 'Days from invoice date'
+    payment_due_percent1: '% of the invoice amount'
+    payment_method_id: 'Payment method'
+    payment_method: 'Payment method'
+    pending: "Pending"
+    percent: 'Percent'
+    phone: 'Phone'
+    port_airport: 'Port_airport'
+    price: 'Price'
+    price1: 'Price 1'
+    price2: 'Price 2'
+    price3: 'Price 3'
+    prices: 'Prices'
+    print_info: "Print Info"
+    print_stamping_years: 'Print code in former years'
+    processed_at: 'Processed at'
+    prompt_payment_days: "Prompt payment days"
+    prompt_payment_percent: "Prompt payment percent"
+    rate: 'Rate'
+    receive_admin_emails: "Receive admin emails"
+    receive_delivery_emails: "Receive delivery emails"
+    ref_abbr: 'Ref.'
+    ref: 'Reference'
+    region_of_dispatch: 'Region_of_dispatch'
+    req_amount_abbr: 'Amount'
+    req_amount: 'Equivalence surcharge amount'
+    req_percent: 'Equivalence surcharge percent'
+    req: 'Equivalence surcharge'
+    reserved: "Reserved"
+    salesman_code: 'Seller code'
+    salesman_id: 'Seller'
+    salesman_name: 'Seller name'
+    salesman: 'Seller'
+    salesmen_from_where: 'Sellers, by brand'
+    salesmen_of_customer: 'Sellers'
+    secondary_color: "Secondary Color"
+    sepa_date_mandate_b2b: 'SEPA B2B mandate date'
+    sepa_date_mandate_core: 'SEPA CORE mandate date'
+    sequence_id: 'Sequence'
+    sequence: 'Sequence'
+    serviced_adjusted_at: 'Serviced adjusted at'
+    serviced_gross: 'Total delivered/prepared'
+    serviced_notified: 'Notified when prepared raised 95%'
+    serviced_price: 'Price delivered'
+    serviced_threshold: 'Notify %'
+    serviced_total: 'Prepared/Delivered'
+    serviced_units: 'Prepared/Delivered'
+    serviced: 'Prepared/Delivered'
+    shipping_address_id: 'Shipping address'
+    shipping: 'Shipping charges'
+    signature: 'Pattern'
+    sisventa_email: "Send Sisventa delivery notes to"
+    size_code: 'Size code'
+    size_id: 'Size'
+    size_name: 'Size'
+    size: 'Size'
+    sizes_name: 'Size name'
+    stamping_abbr: 'Prnt'
+    stamping_code: 'Print code'
+    stamping_id: 'Print'
+    stamping_name: 'Print name'
+    stamping_secondary: 'Secondary print'
+    stamping: 'Print'
+    stampings_name: 'Stamping name'
+    state: 'State'
+    statistical_procedure: 'Statistical_procedure'
+    status: 'Status'
+    stock_available_abbr: "Avail."
+    stock_available_plus_warehouses: "Available + warehouses"
+    stock_available: 'Available'
+    stock_pending_abbr: "P."
+    stock_pending: "Provided"
+    stock_status: 'Stock status'
+    stock_units: "Stock"
+    stock: "Stock"
+    subdet_data_page_size: 'Size paging in subdetails'
+    subject: 'Subject'
+    supplier_code: 'Supplier code'
+    supplier_id: 'Supplier'
+    supplier_name: 'Supplier name'
+    supplier_order: 'Supplier order'
+    supplier: 'Supplier'
+    taxable_base_abbr: 'Tax Base'
+    taxable_base: 'Taxable base'
+    to_size_id: 'To size'
+    total_cost: 'Total cost'
+    total_pending: 'Total pending'
+    total: 'Total'
+    units_adjusted: 'Units adjusted'
+    units_ordered: "Units ordered by customers"
+    units_pending: 'Pending units'
+    units_purchased_abbr: "P"
+    units_purchased: "Units purchased from suppliers"
+    units_received_abbr: "R."
+    units_received_pending_abbr: "P."
+    units_received_pending: "Provided receipt"
+    units_received: "Units received"
+    units_scanned_abbr: "S."
+    units_scanned: "Scanned"
+    units_serviced_abbr: "D."
+    units_serviced_pending: "Provided to deliver"
+    units_serviced: "Prepared/Delivered units"
+    units: 'Units'
+    updated_at: 'Updated'
+    updated_by: 'Updated by'
+    user_admin_level: "Minimum user level"
+    user_can_change_salesman: "User can change his/her seller"
+    user_email: "User email"
+    user_id: 'User'
+    user_name: 'Username'
+    user: 'User'
+    validated_at: "Validation"
+    validated: "Validated"
+    vat_amount_abbr: 'Amount'
+    vat_amount: 'VAT amount'
+    vat_excluded: "VAT excluded"
+    vat_number: 'NIF'
+    vat_percent_abbr: 'VAT'
+    vat_percent: 'VAT rate'
+    vat: 'VAT'
+    void_units: 'Canceled'
+    wants_direct_invoice: 'Wants direct invoice'
+    warehouses: 'Warehouses'
+    web: 'Web'
+    weight: 'Weight (Kg)'
+    wildcard: 'Wildcard'
+    woman: "Woman"
+    year: "Year"
+    zip: 'Zip code'
+
+  activerecord:
+    models:
+      intrastat_config:
+        one: 'INTRASTAT Configuration'
+        other: 'INTRASTAT Configuration'
+      item:
+        one: 'Item'
+        other: 'Items'
+      stamping:
+        one: 'Print'
+        other: 'Prints'
+      print:
+        one: 'Print info'
+        other: 'Print infos'
+      print_stamping_year:
+        one: 'Print code in former years'
+        other: 'Print codes in former years'
+      color:
+        one: 'Color'
+        other: 'Colors'
+      customer_group:
+        one: Customer group
+        other: Customer groups
+      customer_group_item:
+        one: Customer group detail
+        other: Customer groups details
+      item_group:
+        one: Item group
+        other: Grups darticles
+      item_group_item:
+        one: Item group detail
+        other: Item group details
+      brand:
+        one: Brand
+        other: Brands
+      salesman_brand:
+        one: 'Seller/Brand'
+        other: 'Seller/Brands'
+      collection:
+        one: 'Collection'
+        other: 'Collections'
+      size:
+        one: 'Size'
+        other: 'Sizes'
+      supplier:
+        one: 'Supplier'
+        other: 'Suppliers'
+      banner:
+        one: 'Banner'
+        other: 'Banners'
+      user:
+        one: 'User'
+        other: 'Users'
+      size_library:
+        one: 'Size library'
+        other: 'Size libraries'
+      size_libraries_item:
+        one: 'Size library item'
+        other: 'Size library items'
+      color_library:
+        one: 'Color library'
+        other: 'Color libraries'
+      color_libraries_item:
+        one: 'Color library item'
+        other: 'Color library items'
+      stamping_library:
+        one: "Print library"
+        other: "Print libraries"
+      stamping_libraries_item:
+        one: 'Print library item'
+        other: 'Print library items'
+      item_stamping: 'Item/Print'
+      item_color: 'Item/Colors'
+      item_size: 'Item/Sizes'
+      item_price: 'Item/Prices'
+      item_cost: 'Item/Costs'
+      contact_salesman: 'Customer/Seller'
+      payment_method:
+        one: 'Payment method'
+        other: 'Payment methods'
+      contact:
+        one: 'Contact'
+        other: 'Contacts'
+      shipping_address:
+        one: "Shipping address"
+        other: "Shipping addresses"
+      order:
+        one: 'Order'
+        other: 'Orders'
+      order_item:
+        one: "Order item"
+        other: "Order items"
+      order_item_detail:
+        one: "Item detail"
+        other: "Item details"
+      order_smart_group:
+        one: "Items Group"
+        other: "Items Groups"
+      purchase_order:
+        one: 'Purchase order'
+        other: 'Purchase orders'
+      purchase_order_item:
+        one: "Purchase order line"
+        other: "Purchase order lines"
+      purchase_order_item_detail:
+        one: "Purchase order item detail"
+        other: "Purchase order item details"
+      purchase:
+        one: 'Purchase'
+        other: 'Purchases'
+      purchase_item:
+        one: "Purchase item"
+        other: "Purchase items"
+      purchase_item_detail:
+        one: "Purchase item detail"
+        other: "Purchase item details"
+      sequence:
+        one: 'Series'
+        other: 'Series'
+      package_list:
+        one: 'Package list'
+        other: 'Package lists'
+      package_list_item:
+        one: 'Package list item'
+        other: 'Package list items'
+      adjustment:
+        one: 'Adjustment'
+        other: 'Adjustments'
+      adjustment_item:
+        one: 'Adjustment detail'
+        other: 'Adjustment details'
+      delivery_note:
+        one: 'Delivery note or invoice'
+        other: 'Delivery notes or invoices'
+      delivery_note_item:
+        one: 'Delivery note or invoice item'
+        other: "Delivery note or invoice items"
+      invoice_customer_datum:
+        one: "Invoice customer data"
+        other: "Invoice customer data"
+      invoice_due_date:
+        one: "Due date"
+        other: "Due dates"
+      bank:
+        one: "Bank"
+        other: "Banks"
+      bank_batch:
+        one: "Bank remittance"
+        other: "Bank remittances"
+      clipboard:
+        one: "Clipboard"
+        other: "Clipboards"
+      alert:
+        one: "Alert"
+        other: "Alert"
+      alert_language:
+        one: "Translation"
+        other: "Translations"
+      sizes_signature:
+        one: "Sizes pattern"
+        other: "Sizes patterns"
+      item_category:
+        one: "Category"
+        other: "Categories"
+      user_salesman:
+        one: 'Seller of user'
+        other: 'Sellers of user'
+      warehouse:
+        one: 'Warehouse'
+        other: 'Warehouses'
+
+  errors:
+    messages:
+      cannot_delete_customer: 'You cannot delete a customer created in the office'
+      cant_find_salesman: "Can't find a seller for this sequence and customer"
+      customer_percent_invalid_sequence: "Customer has 100%. Cannot apply this sequence"
+      customer_wants_direct_invoice: "This customer wants direct invoice"
+      dup_brand: 'Duplicated brand in this seller'
+      dup_library_item: '%{model_name} duplicated in this library'
+      dup_salesman: 'Duplicated seller in this customer'
+      fifty_discount_must_also_define_vat: "Customers with COSHOP discount must declare VAT percent"
+      intrastat_code: 'must be a number between 4 and 8 digits'
+      invalid_collection: "%{item_name} is part of a different collection"
+      invalid_country_code: 'Invalid country code'
+      invalid_date: "Invalid date"
+      invalid_invoice: 'malformed'
+      invalid_url: "Invalid URL"
+      ivalid_iban: 'Invalid IBAN'
+      locked: 'locked'
+      min_sale_units: "%{ref}: must be sold at least %{min_sale_units} units"
+      on_creation: "on creation"
+      units_and_void_units_not_zero: 'Units / units canceled cannot be zero'
+
+  enums:
+    item:
+      status:
+        on_creation: 'On creation'
+        on_sale: 'On sale'
+        locked: 'Locked'
+    order:
+      status:
+        on_creation: 'On creation'
+        void: 'Canceled'
+        reserved: 'Reserved'
+        validated: 'Validated'
+        processed: 'Processed'
+        serviced: 'Delivered'
+        closed: 'Closed'
+    purchase_order:
+      status:
+        on_creation: 'On creation'
+        void: 'Canceled'
+        reserved: 'Reserved'
+        validated: 'Validated'
+        serviced: 'Delivered'
+        closed: 'Closed'
+    purchase:
+      status:
+        on_creation: 'On creation'
+        void: 'Canceled'
+        reserved: 'Reserved'
+        validated: 'Validated'
+        serviced: 'Delivered'
+    user:
+      admin_level:
+        basic: 'Basic'
+        commercial: 'Commercial'
+        design: 'Design'
+        delivery: 'Delivery'
+        delivery_super: 'Delivery supervisor'
+        office: 'Office'
+        admin: 'Administrator'
+    sequence:
+      kind:
+        package_list: 'Freight list'
+        delivery_note: 'Delivery note'
+        invoice: 'Invoice'
+      mode:
+        visible: 'Visible'
+        invisible: 'Invisible'
+    package_list:
+      status:
+        on_creation: 'On creation'
+        void: 'Canceled'
+        reserved: 'Reserved'
+        validated: 'Validated'
+        delivered: 'Delivered'
+        direct_invoice: 'Direct invoice'
+      cache_status:
+        calculating: 'Calculating cache'
+        no_orders: 'This customer has no orders'
+        done: 'Cache calculation done'
+    package_list_item:
+      stock_status:
+        ok: 'Ok'
+        overstock: 'overstock'
+        no_order: 'There is no order'
+    adjustment:
+      status:
+        on_creation: 'On creation'
+        void: 'Canceled'
+        reserved: 'Reserved'
+        validated: 'Validated'
+    delivery_note:
+      status:
+        on_creation: 'On creation'
+        void: 'Canceled'
+        reserved: 'Reserved'
+        validated: 'Validated'
+        in_deposit: 'On deposit'
+        direct_invoice: 'Direct invoice'
+        part_of_invoice: "Part of invoice"
+        deferred_invoice: "Deferred invoice"
+      mode:
+        visible: 'Visible'
+        invisible: 'Invisible'
+    bank_batch:
+      status:
+        on_creation: 'On creation'
+        presented: 'Presented'
+        closed: 'Closed'
+
+  contact_types:
+    customer:
+      one: 'Customer'
+      other: 'Customers'
+    supplier:
+      one: 'Supplier'
+      other: 'Suppliers'
+    salesman:
+      one: 'Seller'
+      other: 'Sellers'
+    author:
+      one: 'Author'
+      other: 'Authors'
+    contact_type: 'Contact type'

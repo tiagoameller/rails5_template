@@ -1,0 +1,618 @@
+ca:
+  attributes:
+    account: 'Compte'
+    accounted: 'Comptabilitzat'
+    active: "Actiu"
+    address: 'Domicili'
+    address1: 'Domicili 1'
+    address2: 'Domicili 2'
+    address3: 'Domicili 3'
+    address4: 'Domicili 4'
+    address5: 'Domicili 5'
+    address6: 'Domicili 6'
+    admin_level: 'Tipus usuari'
+    advanced_payment: 'Avançament de crèdit'
+    alt_payment_method_id: 'Mitjà de pagament secundari'
+    alt_payment_method: 'Mitjà de pagament secundari'
+    amended_invoice_date: 'Data de rectificativa'
+    amended_invoice: 'Rectifica a'
+    amount: 'Import'
+    api_access: 'Permetre accés a la API'
+    api_b2b_url: 'A on pujar els stocks B2B?'
+    api_b2b_warehouse_stocks: "Enviar també els stocks de magatzems al B2B?"
+    api_b2b: 'Activar la pujada de stocks al B2B?'
+    api_b2c_url: 'A on pujar els stocks B2C'
+    api_b2c_warehouse_stocks: "Enviar també els stocks de magatzems al B2C?"
+    api_b2c: 'Activar la pujada de stocks al B2C?'
+    api_token: 'API token'
+    appraised: 'Valorat'
+    author_id: 'Autor'
+    author: 'Autor'
+    auto_expand_smart_groups: "Expandir estampats i colors en grups d'articles"
+    b2b_abbr: "B2B"
+    b2b: "Integració amb la API B2B"
+    b2c_abbr: "B2C"
+    b2c_price_esp: 'Preu web Espanya'
+    b2c_price_int: 'Preu web Inter.'
+    b2c: "Integració amb la API B2C"
+    baby: "Nadó"
+    bank_batch: "Remesa"
+    bank: 'Banc'
+    banner_count: 'Línies amb cartell'
+    banner_id: 'Cartell'
+    banner_units: 'Cartell'
+    banner: 'Cartell'
+    banners: "Cartells"
+    bic: 'BIC'
+    body: "Cos de l'alerta"
+    brand_id: 'Marca'
+    brand: 'Marca'
+    cache_status: "Estat de la caché"
+    can_use_smart_groups: "Pot crear comandes sobre grups d'articles"
+    cashed_account: "Compte cobrament"
+    cashed: 'Cobrat'
+    change_price: 'Modificar preu oficial'
+    child: "Fillet"
+    city: 'Municipi'
+    clementina: 'Clemenentina'
+    code: 'Codi'
+    collection_id: 'Col·lecció'
+    collection: 'Col·lecció'
+    collections_name: 'Nom Col·lecció'
+    color_abbr: 'Col.'
+    color_code: 'Codi color'
+    color_count: 'Colors'
+    color_id: 'Color'
+    color_name: 'Nom color'
+    color: 'Color'
+    colors_name: 'Nom Color'
+    comments: 'Comentaris'
+    company_name: 'Propietari/Nom empresa'
+    cost: 'Preu cost'
+    country_code: 'Codi de país'
+    country_code: 'Codi ISO del país'
+    country: 'País'
+    created_at: 'Creació'
+    creditor_identifier: 'NIF + sufix ordenant'
+    creditor_name: 'Nom ordenant'
+    cuenta: 'Compte bancari'
+    custom1: 'Varis 1'
+    custom2: 'Varis 2'
+    customer_code: 'Codi client'
+    customer_comment: 'Comentari client'
+    customer_id: 'Client'
+    customer_name: 'Nom client'
+    customer_names: "Clients"
+    customer_order: 'S/Comanda'
+    customer: 'Client'
+    date_cashed: "Data cobrament"
+    date_closed: "Data liquidació"
+    date_created: "Data creació"
+    date_from: 'Visible des de'
+    date_presented: "Data presentació"
+    date_to: 'Visible fins'
+    date: 'Data'
+    dc: 'DC'
+    delivered: 'Servit'
+    delivery_date: "Data d'entrega"
+    delivery_notifications_email: 'Email per rebre notificacions de magatzem'
+    delivery_term: "Condicions d'entrega"
+    deposit_customer: "Generar albarans de dipòsit"
+    design_info: "Info Disseny"
+    direct_debit: 'Domiciliat'
+    discount_abbr: 'Dte.'
+    discount: 'Descompte'
+    doc_number: 'Document'
+    document_discount_total_abbr: 'T.Dte.'
+    document_discount_total: 'Total Dte.Gral.'
+    document_discount: 'Dte.Gral.'
+    documents: 'Documents'
+    dropbox_url: "Adreça carpeta a Dropbox"
+    due_date: 'Data venciment'
+    due: 'Import'
+    dues: "Rebuts"
+    email: 'Email'
+    entidad: 'Entitat'
+    equivalence_surcharge_abbr: 'R.Eq.'
+    equivalence_surcharge: 'Recàrrec Eq.'
+    fax: 'Fax'
+    fifty_discount: 'Descompte COSHOP'
+    from_size_id: 'Des de talla'
+    fso_code: 'codi 12 dígits'
+    fso_name: 'Descripció'
+    fso_ref: 'Referència'
+    girl: "Filleta"
+    gross_cost: 'Total cost'
+    gross_shipping: 'Total ports'
+    gross: 'Brut'
+    has_banners: '%{count} línies tenen cartell'
+    iban: 'IBAN'
+    id: 'Codi'
+    image_url: "Adreça imatge"
+    index_data_page_size: 'Files paginació a llistes'
+    internal_notes: 'Comentari comercial'
+    intrastat_code: 'Codi intrastat'
+    intrastat: 'INTRASTAT?'
+    invoice_date: 'Data factura'
+    invoice_email: 'Email per enviar factures'
+    is_author: 'És autor'
+    is_comment: 'Comentari'
+    is_customer: 'És client'
+    is_deposit: "Només per dipòsits"
+    is_salesman: 'És venedor'
+    is_supplier: 'És proveïdor'
+    item_category_id: 'Categoria'
+    item_category: 'Categoria'
+    item_code: 'Codi article'
+    item_id: 'Article'
+    item_name: 'Nom article'
+    item_ref: 'Referència article'
+    item: 'Article'
+    items_name: 'Nom article'
+    kind: 'Tipus'
+    label_no_pvp: 'Etiqueta sense PVP'
+    label_price: 'PVP'
+    label_price1: 'Preu etq.1'
+    label_price2: 'Preu etq.2'
+    label_price3: 'Preu etq.3'
+    lang: 'Idioma'
+    last_logged: 'Darrera visita'
+    last_sisventa_sent: 'Darrer enviament a SisVenta'
+    libraries_data_page_size: 'Files paginació a llibreries'
+    line_discount_total: 'Total Dte. Linial'
+    line_discount: 'Dte. linial'
+    locked: 'Bloquejat'
+    man: "Home"
+    manufacturing_warning: 'Avís per magatzem'
+    min_sale_units: 'Uni.Mínima Venda'
+    mobile: 'Mòbil'
+    mode_of_transport: 'Mode de transport'
+    mode: 'Visibilitat'
+    name: 'Nom'
+    nature_of_transaction: 'Naturalesa transacció'
+    new_salesman_id: 'Canviar a venedor'
+    next_number: 'Proper número'
+    nickname: 'Nom comercial'
+    notes: 'Notes'
+    number: "Ordre"
+    oficina: 'Oficina'
+    on_creation: "En creació"
+    order_id: 'Comanda'
+    order_item_id: "Número línia comanda"
+    order: 'Número comanda'
+    ordered: "Demanat"
+    orders_are_closed_abbr: "Tancada"
+    orders_are_closed: "Comandes estan tancades"
+    origin_country: 'País orígen'
+    other: 'Altres'
+    package_list_id: 'Llista contingut de caixa'
+    package_list: 'Llista contingut de caixa'
+    password_confirmation: 'Confirmar'
+    password: 'Contrasenya'
+    payment_day: 'Dia de pagament'
+    payment_due_days1: 'Dies a partir de data factura'
+    payment_due_percent1: '% de la factura'
+    payment_method_id: 'Mitjà de pagament'
+    payment_method: 'Mitjà de pagament'
+    pending: "Pendent"
+    percent: 'Percentatge'
+    phone: 'Telèfon'
+    port_airport: 'Port o aeroport'
+    price: 'Preu'
+    price1: 'Preu 1'
+    price2: 'Preu 2'
+    price3: 'Preu 3'
+    prices: 'Preus'
+    print_info: "Info Estampat"
+    print_stamping_years: 'Codi estampat en anys anteriors'
+    processed_at: 'Gestionat el'
+    prompt_payment_days: "Dies 'pronto pago'"
+    prompt_payment_percent: "% 'pronto pago'"
+    rate: 'Tarifa'
+    receive_admin_emails: "Rebre emails d'administrador"
+    receive_delivery_emails: "Rebre emails de magatzem"
+    ref_abbr: 'Ref.'
+    ref: 'Referència'
+    region_of_dispatch: 'Província origen'
+    req_amount_abbr: 'Quota'
+    req_amount: 'Quota R.Equ.'
+    req_percent: 'Tipus REq'
+    req: 'REq'
+    reserved: "Reservat"
+    salesman_code: 'Codi venedor'
+    salesman_id: 'Venedor'
+    salesman_name: 'Nom venedor'
+    salesman: 'Venedor'
+    salesmen_from_where: 'Venedors, per marca'
+    salesmen_of_customer: 'Venedors'
+    secondary_color: "Color secundari"
+    sepa_date_mandate_b2b: 'Data mandat SEPA B2B'
+    sepa_date_mandate_core: 'Data mandat SEPA CORE'
+    sequence_id: 'Numerador'
+    sequence: 'Numerador'
+    serviced_adjusted_at: 'Servit recalculat'
+    serviced_gross: 'Total servit/Preparat'
+    serviced_notified: 'Avisat de preparat al 95%'
+    serviced_price: 'Preu servit'
+    serviced_threshold: 'Avisar %'
+    serviced_total: 'Servit/Preparat'
+    serviced_units: 'Servides/Preparades'
+    serviced: "Servit/Preparat"
+    shipping_address_id: 'Adreça enviament'
+    shipping: 'Ports'
+    signature: "Patró"
+    sisventa_email: "Enviar albarans SisVenta a"
+    size_code: 'Codi talla'
+    size_id: 'Talla'
+    size_name: 'Talla'
+    size: 'Talla'
+    sizes_name: 'Nom Talla'
+    stamping_abbr: 'Est.'
+    stamping_code: 'Codi estampat'
+    stamping_id: 'Estampat'
+    stamping_name: 'Nom estampat'
+    stamping_secondary: 'Est. secondari'
+    stamping: 'Estampat'
+    stampings_name: 'Nom Estampat'
+    state: 'Província'
+    statistical_procedure: 'Régim estadístic'
+    status: 'Estat'
+    stock_available_abbr: "Disp."
+    stock_available_plus_warehouses: "Disponible + magatzems"
+    stock_available: "Disponible"
+    stock_pending_abbr: "P."
+    stock_pending: "Previst"
+    stock_status: 'Estat unitats'
+    stock_units: "Stock"
+    stock: "Stock"
+    subdet_data_page_size: 'Files paginació a subdetalls'
+    subject: 'Assumpte'
+    supplier_code: 'Codigo proveïdor'
+    supplier_id: 'Proveïdor'
+    supplier_name: 'Nom proveïdor'
+    supplier_order: 'Referència proveïdor'
+    supplier: 'Proveïdor'
+    taxable_base_abbr: 'Base IVA'
+    taxable_base: 'Base imposable'
+    to_size_id: 'Fins talla'
+    total_cost: 'Cost total'
+    total_pending: 'Total pendent'
+    total: 'Total'
+    units_adjusted: 'Unitats regularitzades'
+    units_ordered: "Unitats comandades per clients"
+    units_pending: 'Unitats pendents'
+    units_purchased_abbr: "C"
+    units_purchased: "Unitats comprades a proveïdors"
+    units_received_abbr: "R."
+    units_received_pending_abbr: "P."
+    units_received_pending: "Pendent rebre"
+    units_received: "Unitats rebudes"
+    units_scanned_abbr: "E."
+    units_scanned: "Escanejades"
+    units_serviced_abbr: "S."
+    units_serviced_pending: "Pendent servir"
+    units_serviced: "Unitats servides/Preparades"
+    units: 'Unitats'
+    updated_at: 'Modificació'
+    updated_by: 'Actualitzat per'
+    user_admin_level: "Nivell mínim d'usuari"
+    user_can_change_salesman: "Usuari pot canviar de venedor"
+    user_email: "Correu electrònic de l'usuari"
+    user_id: 'Usuari'
+    user_name: 'Nom usuari'
+    user: 'Usuari'
+    validated_at: "Validació"
+    validated: "Validat"
+    vat_amount_abbr: 'Quota'
+    vat_amount: 'Quota I.V.A.'
+    vat_excluded: "Exclòs d'IVA"
+    vat_number: 'NIF'
+    vat_percent_abbr: 'IVA'
+    vat_percent: 'Tipus IVA'
+    vat: 'IVA'
+    void_units: 'Anul·lades'
+    wants_direct_invoice: 'Vol factura directa'
+    warehouses: 'Magatzems'
+    web: 'Web'
+    weight: 'Pes (Kg)'
+    wildcard: 'Comodí'
+    woman: "Dona"
+    year: "Any"
+    zip: 'C.Postal'
+
+  activerecord:
+    models:
+      intrastat_config:
+        one: 'Configuració INTRASTAT'
+        other: 'Configuració INTRASTAT'
+      item:
+        one: 'Article'
+        other: 'Articles'
+      stamping:
+        one: 'Estampat'
+        other: 'Estampats'
+      print:
+        one: 'Informació Estampat'
+        other: 'Informació Estampats'
+      print_stamping_year:
+        one: 'Codi estampat en anys anteriors'
+        other: 'Codis estampat en anys anteriors'
+      color:
+        one: 'Color'
+        other: 'Colors'
+      collection:
+        one: 'Col·lecció'
+        other: 'Col·leccions'
+      customer_group:
+        one: 'Grup de clients'
+        other: 'Grups de clients'
+      customer_group_item:
+        one: 'Detall de grup de clients'
+        other: 'Detalls de grups de clients'
+      item_group:
+        one: "Grup d'articles"
+        other: "Grups d'articles"
+      item_group_item:
+        one: "Detall de grup d'articles"
+        other: "Detalls de grups d'articles"
+      brand:
+        one: 'Marca'
+        other: 'Marques'
+      salesman_brand:
+        one: 'Venedor/Marca'
+        other: 'Venedor/Marques'
+      size:
+        one: 'Talla'
+        other: 'Talles'
+      supplier:
+        one: 'Proveïdor'
+        other: 'Proveïdors'
+      banner:
+        one: 'Cartell'
+        other: 'Cartells'
+      user:
+        one: 'Usuari'
+        other: 'Usuaris'
+      size_library:
+        one: 'Llibreria de talles'
+        other: 'Llibreries de talles'
+      size_libraries_item:
+        one: 'Talla de llibreria'
+        other: 'Talles de llibreria'
+      color_library:
+        one: 'Llibreria de colors'
+        other: 'Llibreries de colors'
+      color_libraries_item:
+        one: 'Color de llibreria'
+        other: 'Colors de llibreria'
+      stamping_library:
+        one: "Llibreria d'estampats"
+        other: "Llibreries d'estampats"
+      stamping_libraries_item:
+        one: 'Estampat de llibreria'
+        other: 'Estampats de llibreria'
+      item_stamping: 'Article/Estampats'
+      item_color: 'Article/Colors'
+      item_size: 'Article/Talles'
+      item_price: 'Article/Preus'
+      item_cost: 'Article/Costos'
+      contact_salesman: 'Client/Venedor'
+      payment_method:
+        one: 'Mitjà de pagament'
+        other: 'Mitjans de pagament'
+      contact:
+        one: 'Contacte'
+        other: 'Contactes'
+      shipping_address:
+        one: "Adreça d'enviament"
+        other: "Adreces d'enviament"
+      order:
+        one: 'Comanda'
+        other: 'Comandes'
+      order_item:
+        one: "Línia de comanda"
+        other: "Línies de comanda"
+      order_item_detail:
+        one: "Comanda. Detall d'article"
+        other: "Comanda. Detalls d'article"
+      order_smart_group:
+        one: "Group d'articles"
+        other: "Groups d'articles"
+      purchase_order:
+        one: 'Comanda a proveïdor'
+        other: 'Comandes a proveïdor'
+      purchase_order_item:
+        one: "Línia de comanda a proveïdor"
+        other: "Línies de comanda a proveïdor"
+      purchase_order_item_detail:
+        one: "Detall d'article a proveïdor"
+        other: "Detalls d'article a proveïdor"
+      purchase:
+        one: 'Entrada de magatzem'
+        other: 'Entrades de magatzem'
+      purchase_item:
+        one: "Línia d'entrada de magatzem"
+        other: "Línies d'entrades de magatzem"
+      purchase_item_detail:
+        one: "Detall d'entrada de magatzem"
+        other: "Detalls d'entrada de magatzem"
+      sequence:
+        one: 'Sèrie numeració'
+        other: 'Sèries de numeració'
+      package_list:
+        one: 'Contingut de caixa'
+        other: 'Continguts de caixa'
+      package_list_item:
+        one: 'Detall de contingut de caixa'
+        other: 'Detalls de contingut de caixa'
+      adjustment:
+        one: 'Regularització'
+        other: 'Regularitzacions'
+      adjustment_item:
+        one: 'Detall de regularització'
+        other: 'Detalls de regularitzacions'
+      delivery_note:
+        one: 'Albarà o factura'
+        other: 'Albarans i factures'
+      delivery_note_item:
+        one: "Detall d'albarà o factura"
+        other: "Detalls d'albarans o factures"
+      invoice_customer_datum:
+        one: "Dades client comodí"
+        other: "Dades client comodí"
+      invoice_due_date:
+        one: "Venciment"
+        other: "Venciments"
+      bank:
+        one: "Banc"
+        other: "Bancs"
+      bank_batch:
+        one: "Remesa bancària"
+        other: "Remeses bancàries"
+      clipboard:
+        one: "Portaretall"
+        other: "Portaretalls"
+      alert:
+        one: "Alerta"
+        other: "Alertes"
+      alert_language:
+        one: "Traducció"
+        other: "Traduccions"
+      sizes_signature:
+        one: "Tallatge"
+        other: "Tallatges"
+      item_category:
+        one: "Categoria"
+        other: "Categories"
+      user_salesman:
+        one: "Venedor d'usuari"
+        other: "Venedors d'usuari"
+      warehouse:
+        one: 'Magatzem'
+        other: 'Magatzems'
+
+  errors:
+    messages:
+      cannot_delete_customer: "No es pot esborrar client creat a oficina"
+      cant_find_salesman: "No s'ha trobat cap venedor per aquesta sèrie i client"
+      customer_percent_invalid_sequence: "Client té marcat 100%. No es pot aplicar aquesta sèrie"
+      customer_wants_direct_invoice: "Aquest client només vol factura directa"
+      dup_brand: 'Marca duplicada dins aquest venedor'
+      dup_library_item: '%{model_name} duplicat dins aquesta llibreria'
+      dup_salesman: 'Venedor duplicat dins aquest client'
+      fifty_discount_must_also_define_vat: "Els clients amb descompte COSHOP han d'indicar el tipus d'IVA"
+      intrastat_code: 'ha de ser un nombre entre 4 i 8 dígits.'
+      invalid_collection: "%{item_name} és d'una col·lecció diferent"
+      invalid_country_code: 'Codi de país incorrecte'
+      invalid_date: "Data incorrecta"
+      invalid_invoice: 'factura no vàlida'
+      invalid_url: "URL incorrecta"
+      ivalid_iban: 'IBAN no és vàlid'
+      locked: 'bloquejat'
+      min_sale_units: "%{ref}: mínim de venda ha de ser de %{min_sale_units} unitats"
+      on_creation: "en creació"
+      units_and_void_units_not_zero: 'Unitats / unitats anul·lades no poden ser zero'
+
+  enums:
+    item:
+      status:
+        on_creation: 'En creació'
+        on_sale: 'En venda'
+        locked: 'Bloquejat'
+    order:
+      status:
+        on_creation: 'En creació'
+        void: 'Anul·lat'
+        reserved: 'Reservat'
+        validated: 'Validat'
+        processed: 'Gestionat'
+        serviced: 'Servit'
+        closed: 'Tancat'
+    purchase_order:
+      status:
+        on_creation: 'En creació'
+        void: 'Anul·lat'
+        reserved: 'Reservat'
+        validated: 'Validat'
+        serviced: 'Servit'
+        closed: 'Tancat'
+    purchase:
+      status:
+        on_creation: 'En creació'
+        void: 'Anul·lat'
+        reserved: 'Reservat'
+        validated: 'Validat'
+        serviced: 'Servit'
+    user:
+      admin_level:
+        basic: 'Bàsic'
+        commercial: 'Comercial'
+        design: 'Disseny'
+        delivery: 'Magatzem'
+        delivery_super: 'Cap de magatzem'
+        office: 'Oficina'
+        admin: 'Administrador'
+    sequence:
+      kind:
+        package_list: 'Llista de càrrega'
+        delivery_note: 'Albarà'
+        invoice: 'Factura'
+      mode:
+        visible: 'Visible'
+        invisible: 'Invisible'
+    package_list:
+      status:
+        on_creation: 'En creació'
+        void: 'Anul·lat'
+        reserved: 'Reservat'
+        validated: 'Validat'
+        delivered: 'Entregat'
+        direct_invoice: 'Facturat'
+      cache_status:
+        calculating: "S'està calculant la caché"
+        no_orders: "Aquest client no té comandes"
+        done: "Finalitzat el càlcul de caché"
+    package_list_item:
+      stock_status:
+        ok: 'Ok'
+        overstock: 'Supera comanda'
+        no_order: 'No hi ha comanda'
+    adjustment:
+      status:
+        on_creation: 'En creació'
+        void: 'Anul·lat'
+        reserved: 'Reservat'
+        validated: 'Validat'
+    delivery_note:
+      status:
+        on_creation: 'En creació'
+        void: 'Anul·lat'
+        reserved: 'Reservat'
+        validated: 'Validat'
+        in_deposit: 'En depòsit'
+        direct_invoice: 'Facturat'
+        part_of_invoice: "Albarà de fra. diferida"
+        deferred_invoice: "Factura diferida"
+      mode:
+        visible: 'Visible'
+        invisible: 'Invisible'
+    bank_batch:
+      status:
+        on_creation: 'En creació'
+        presented: 'Presentada'
+        closed: 'Liquidada'
+
+  contact_types:
+    customer:
+      one: 'Client'
+      other: 'Clients'
+    supplier:
+      one: 'Proveïdor'
+      other: 'Proveïdors'
+    salesman:
+      one: 'Venedor'
+      other: 'Venedors'
+    author:
+      one: 'Autor'
+      other: 'Autors'
+    contact_type: 'Tipus contacte'

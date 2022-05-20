@@ -12,6 +12,7 @@
 #  reset_password_token   :string
 #  reset_password_sent_at :datetime
 #  remember_created_at    :datetime
+#  locale                 :string           default("ca")
 #
 # Indexes
 #

@@ -1,0 +1,6 @@
+ca:
+  controllers:
+    created: Marca was successfully created.
+    updated: Marca was successfully updated.
+    destroyed: Marca was successfully destroyed.
+    locale_changed: Idioma canviat

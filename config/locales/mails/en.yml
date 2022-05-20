@@ -1,0 +1,48 @@
+en:
+  mails:
+    order_serviced_threshold: "Order %{collection} %{year}/%{order_id} is prepared at least %{threshold}%"
+    copy_has_sent_to_customer: "A copy of this order has been sent to customer's email: %{email}"
+    customer_has_been_created: "New customer %{name} %{year}/%{code} has been created by the seller %{salesman_name}"
+    customer_has_no_email: 'There is no email address assigned to the customer'
+    delivery_note_has_been_created_from_web: "New delivery note from web %{year}/%{doc_number} - %{customer_name}"
+    email_sent_to: "Succesffuly sent email to %{recipient}, using a queue. Please wait for a minute"
+    email_to_customer: 'Email %{display_status} to customer'
+    follow_link: "Click here to open"
+    incidences_found: "Incidences found:"
+    incidences: "There are incidences"
+    invoice_for_you_customer: "An invoice has been generated for your customer"
+    new_failed_order_from_web: "New failed order from web"
+    new_order_from_web: "New order from web: %{collection} %{year}/%{order_id}"
+    must_pick_from_warehouses: "Not enough stock at main warehouse for received order: %{collection} %{year}/%{order_id}"
+    no_warehouses_stock: "No stock in warehouses"
+    order_status_changed_list_email: "%{count} order have been changed status to %{new_status}. Year: %{year}"
+    order_status_changed_to_reserved: 'Order %{collection} %{year}/%{order_id} has been reserved by the seller %{salesman_name}' #seller
+    order_status_changed_to_on_creation: 'Order %{collection} %{year}/%{order_id} has been changed back to on creation by the seller %{salesman_name}'
+    order_status_changed_to_validated: 'New order %{collection} %{year}/%{order_id} has been validated by the seller %{salesman_name}' #seller
+    order_status_changed_to_void: 'Order %{collection} %{year}/%{order_id} has been void by the seller %{salesman_name}' #seller
+    report_start: "Started"
+    report_subtitle: "Selection"
+    report_time_elapsed: "It has taken a while"
+    salesman_delivery_note: "Pou Nou. %{document_type} %{doc_number} %{customer_name}"
+    sent_by_email: '%{model_name} has been sent by email to the customer and user'
+    sisventa_email_to_customer: 'Send file to Sisventa'
+    this_is_a_test_email: "This is a test email. Year: %{year}"
+    your_delivery_note: "Pou Nou. %{document_type} %{doc_number}"
+    your_documents: "%{count} documents ready to print"
+    your_order_status_changed_to_on_creation: "Order %{collection} %{year}/%{order_id} has been changed back to on creation by the seller %{salesman_name}"
+    your_order_status_changed_to_reserved: "Pou Nou. Copy of RESERVED order %{collection} %{year}/%{order_id}"
+    your_order_status_changed_to_validated: "Pou Nou. Copy of VALIDATED order %{collection} %{year}/%{order_id}"
+    your_order_status_changed_to_void: "Pou Nou. Copy of VOID order %{collection} %{year}/%{order_id}"
+    your_order: "Pou Nou. Copy of the order %{collection} %{year}/%{order_id}"
+    your_report: "Your report or process: %{title}"
+    your_labels_report: "Label files to print have been generated"
+    mailgun:
+      spam:
+        subject: 'Email sent to <%{recipient}> has been set as SPAM'
+        body: "You should contact with %{recipient} to see what happened"
+      permanent_failure:
+        subject: "Email sent to <%{recipient}> was not delivered"
+        body: "Error was: %{message}"
+      temporary_failure:
+        subject: "Email sent to <%{recipient}> was not delivered. It'll be retried later"
+        body: "Problem was: %{message}"

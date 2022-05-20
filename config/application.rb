@@ -17,7 +17,11 @@ module R5template
     # the framework and any gems in your application.
 
     # show current exercise from system environment
-    config.year = (ENV['YEAR'] || Time.zone.today.year).to_i
+    config.year = (ENV.fetch('YEAR') { Time.zone.today.year }).to_i
     config.year_last_digit = config.year.to_s[-1]
+
+    # http://www.createdbypete.com/articles/working-with-locales-and-time-zones-in-rails/
+    config.time_zone = 'Madrid'
+    config.active_record.default_timezone = :local
   end
 end

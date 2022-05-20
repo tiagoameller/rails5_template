@@ -45,11 +45,16 @@ gem 'devise', '~> 4.8', '>= 4.8.1'
 gem 'bootstrap', '~> 5.1', '>= 5.1.3'
 gem 'bootstrap_icons_rails'
 gem 'jquery-rails'
-
-gem 'semver2'
 gem 'momentjs-rails'
 
+gem 'rails-i18n'
+# gem 'i18n-js'
+
+gem 'semver2'
+
 group :development, :test do
+  gem 'pry'
+  gem 'pry-nav'
   gem 'faker'
   gem 'database_cleaner'
   gem 'factory_bot_rails'

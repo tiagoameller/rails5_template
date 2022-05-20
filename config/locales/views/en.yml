@@ -1,0 +1,507 @@
+en:
+  views:
+    warehouse_stocks: "Warehouse stocks"
+    limbos_explanation: "Limbos are items missing stamping, color or size due a change in new year"
+    select_items_group: "Please, select an items group"
+    include_optional_customers: "Optionally, select other customers. Current customer is always included"
+    optional_customer: "Optional customer n. %{counter}"
+    create: 'Create'
+    create_orders_from_smart_groups: "Create orders"
+    order_must_be_on_creation_for_editing_smart_groups: 'Order must be on creation for editing item groups'
+    tooltip_clear_line: "Clear line units"
+    tooltip_new_line: "New line"
+    tooltip_duplicate_line: "Duplicate line"
+    tooltip_delete_line: "Delete line"
+    tooltip_duplicate_units: "Duplicate units prior customer"
+    adjusted: 'Adjusted'
+    all_orders_report: 'Browse all orders'
+    all: 'All'
+    application_title: 'Pou Nou Backoffice'
+    are_you_sure: 'Are you sure?'
+    author_orders_report: 'Orders report by author'
+    author_report_on_explanation: "Remember to select proper fields: items, prints or colors"
+    author_report_on: "Report by Item, Print or Color"
+    author_sales_report: 'Sales report by author'
+    back: 'Go back'
+    before_recalc_due_dates_confirm: 'This action is going to remove existing due dates. Are you sure?'
+    reset_serviced_notifications_confirm: "This action is going to reset notification emails. Are you sure?"
+    reset_serviced_notifications_hint: "Click here to reactivate email notificacions"
+    breakdown: 'Breakdown'
+    calc_invoice_due_dates: 'Calculate due dates'
+    calc_sheet: 'Spreadsheet'
+    cashed: 'Charged'
+    cashes: 'Charges'
+    change_status_to_deposit: "Change delivery note status to 'in deposit'"
+    collection_is_closed: "This collection is closed"
+    compact: 'Compact'
+    compact_order: 'Compact order'
+    contacts_report: 'Contacts report'
+    costs: 'Costs'
+    creation_date: 'Creation date'
+    creation_order: 'Order'
+    custom_selection: 'Custom selection'
+    customer_orders: "This customer all orders"
+    customers: Customers
+    dates: 'Dates'
+    delayed_report: "Request email"
+    delivery_note: "Delivery note"
+    delivery_notes_report: 'Delivery notes report'
+    destroy: 'Destroy'
+    detail: 'Detail'
+    dimiss: 'Dimiss'
+    directory: 'Shortcut:' #
+    doc_numbers: "Doc. numbers (spaces before)"
+    due_dates: 'Due dates'
+    edit: 'Edit'
+    equal_to: 'Equal to'
+    field: 'Field'
+    fields: 'Fields'
+    filter: 'Filter'
+    former_years_code: 'Former years print code'
+    former_years_year: 'Former years year'
+    from: 'From'
+    fso_code_or_comment: "12-digit code. * = comment"
+    full: 'Full'
+    generate_purchase_orders: 'Generate'
+    go_to_purchase_order: 'Go to purchase order'
+    history_adjustments: 'History adjustments'
+    history_orders: 'History orders'
+    history_purchase_orders: 'History purchase orders'
+    history_purchases: 'History purchases'
+    history_sales: 'History sales'
+    history: 'History'
+    ignore_no_stock_items: 'Discard items without stock'
+    ignore_stampings: 'Ignore prints'
+    include_stocks: "Substract stocks"
+    index: 'List '
+    invoice_customer_data: 'Invoice customer data'
+    invoice_due_dates_report: 'Due dates invoices report'
+    invoice: 'Invoice'
+    invoices: 'Invoices'
+    invoicing: 'Invoicing'
+    item_abstracts: 'Extracts article'
+    item_codes: "Item codes"
+    item_refs: "Item references"
+    item_reports: 'Item reports'
+    items_report: 'Items report'
+    items_used_in_orders: 'Items used in orders'
+    labels: 'Labels'
+    last_activity: 'Last activity'
+    last_created: 'Last created'
+    lines: "Lines"
+    main: 'Main'
+    massive_print: "Massive print"
+    modes: 'Modes'
+    must_select_column_fields_for_order_by: If sort by customer or seller, must select related fields
+    new: 'New'
+    next_code: 'Next code'
+    no_desc: 'No description'
+    no_invoice_customer_data: 'No invoice customer data'
+    not_matches_found: 'No matches found'
+    open_package_lists: "Open package lists from customers who ordered this item"
+    order_by: 'Order by'
+    order_codes: 'Order codes'
+    order: 'Order'
+    orders_are_closed_explanation: "If checked, when ordering more units than provided a warning will be issued"
+    orders_report: 'Orders report'
+    other: 'Other data'
+    over_purchase_report: "Over purchase report"
+    package_list_cache_on_calc: 'Curently caculating serviced of this customer'
+    pages: 'Pages'
+    payment_due_percent_howto: '0% = import split'
+    pending: 'Provided'
+    plain_stocks_report: 'No subtotals'
+    please_select: 'Please select'
+    prepare: "Prepare. From PROCESSED orders, find package lists"
+    prices: 'Prices'
+    print: 'Print'
+    printed_at: 'Printed at'
+    process_orders: 'Process'
+    process: 'Go!'
+    purchase_order_created_auto: 'Purchase order created automatically'
+    purchase_orders_report: 'Purchase orders report'
+    purchases_report: 'Purchases report'
+    read_only: 'Read only'
+    recalc_serviced: 'Recalculate units served to this client or supplier'
+    receipts: 'Receipts'
+    remove_customer_filter: "Remove customer filter"
+    remove_from_selection: "Discard"
+    report_help: 'How to use the selection custom field'
+    report_title: 'Report title'
+    report_was_queued: 'The report or process has been added to the queue. It will be sent to your email'
+    report: 'Report'
+    reports: 'Reports'
+    reserve_order: 'Order reservation'
+    reset_serviced_notifications: 'Reset email notifications'
+    restart_search: 'Restart search'
+    restore_on_creation_status: 'Back to on creation'
+    return_to_top: 'Return to top'
+    sales_report: 'Sales report'
+    same_vat_number: 'Same VAT number'
+    save: 'Save'
+    scanned: 'Scanned.'
+    select_autocomplete: 'Select %{model_name}. ** displays all elements'
+    select_customer: "Select customer"
+    select: 'Select %{model_name}.'
+    send_email: "Send email"
+    send_stocks_to_customer: "Send stocks to customer"
+    send_test_email: "Send a test email useing queuing service"
+    sepa_file: 'Download SEPA'
+    service_order: 'Serve / close order'
+    show: 'Show' #
+    sisventa_sent: 'Sent to SisVenta'
+    sizes_signature_explanation: "Enter at least 15 first letters in lower case, separated by dashes (xs-s-m-l-xl)"
+    some_orders_have_banners: "Some items have banner"
+    sort: 'Sort'
+    status_must_be_validated: "Delivery note must be in validated status to change to 'in deposit'"
+    statuses: 'Statuses'
+    stock_report: "Stock report"
+    stock_type_for: "Stoock %{stock_type}"
+    stock_type: "Stock type"
+    stocks_color_size: 'Stock / color and size'
+    stocks_color: 'Stock / color'
+    stocks_item: 'Stock / item'
+    stocks_size: 'Stock / size'
+    stocks: 'Stocks'
+    summary: 'Summary'
+    table_formatted: 'Table format'
+    table: 'Table'
+    to: 'To'
+    todo: 'Content not available in this version'
+    undefined: 'Undefined'
+    undo_validate_entry: 'Undo %{model} validation'
+    unknown: "Unknown"
+    unvalidate_adjustment: 'Reopen adjustment'
+    unvalidate_delivery_note: "Reopen delivery mode"
+    unvalidate_invoice: "Reopen invoice"
+    unvalidate_order: "Reopen order"
+    unvalidate_package_list: 'Reopen package list'
+    use_ctrl_click: 'Use ctrl+click to multi-select records. To select a particular item in "from/to", use the code'
+    use: 'Use'
+    validate_adjustment: 'Validate adjustment'
+    validate_delivery_note: "Validate delivery note"
+    validate_entry: 'Validate %{model}'
+    validate_invoice: "Validate invoice"
+    validate_order: 'Validate order'
+    validate_package_list: 'Validate package list'
+    validation_date: 'Validation date'
+    void_order: 'Void order'
+    waiting: 'Waiting ...'
+    warning: "Important notice!"
+    wildcard_sales: "Wildcard sales"
+    commercial_invoices:
+      title: 'Commercial invoices'
+      email_warning: "Invoice will be sent by email to customer. Confirm?"
+      due_date: "Due date"
+      due_dates: "Due dates"
+    contact_form:
+      identification: 'Identification'
+      address: 'address'
+      contact: 'Contact'
+      invoicing: 'Invoicing'
+      misc: 'Misc'
+    howto:
+      vat_number: 'Use the format "ESB07559974" to enter both national and foreign VAT numbers. It may be blank.'
+      bic: 'Required for domiciled receipts acording to SEPA/CORE or SEPA/B2B standards.'
+      b2b: 'Indicate whether the client accepts SEPA / B2B receipts.'
+      sepa_signature: 'SEPA signature.'
+      account: 'Consult your accountant.'
+      default_salesman: 'Main seller (optional)'
+      sisventa_email: "If there is more than one email, separate them by commas"
+      user_rate: Rate to be applied when this user creates new customers
+      user_vat_excluded: VAT excluded to be applied when this user creates new customers
+      user_wants_direct_invoice: "Customer wants direct invoice default value for new customers created by this user"
+      manually_changing_status: "Warning! changing status here does not send emails"
+      sisventa_code: "This is same code for SisVenta's companies"
+    flash_messages:
+      adjustment_status_unvalidated: 'Adjustment has been successfully reopened'
+      adjustment_status_validated: 'Adjustment has been successfully validated'
+      commercial_change_status: 'Commercial users cannot change the status'
+      copied_to_cliboard: "Copied %{item_count} lines"
+      current_salesman_successfully_changed: "Seller changed successfully"
+      customer_is_no_in_salesman_list: "This customer is not in the salesman's customer list"
+      cut_to_cliboard: "CUT %{item_count} línies"
+      delivery_note_status_in_deposit_success: "Delivery note status has been changed to 'in deposit'"
+      delivery_note_status_unvalidated: 'Delivery note has been successfully reopened'
+      delivery_note_status_validated: 'Delivery note has been successfully reopened'
+      duplicate_doc_number: "Duplicate doc number. Check Series numbering"
+      invalid_stco_for_item: "Invalid stamping or color for this item: %{item}"
+      invoice_due_dates_calculated: "Due dates invoices have been successfully calculated"
+      item_not_found: '%{model_name} does not exist or has been deleted by another user'
+      item_successfully_created: '%{model_name} has been successfully created'
+      item_successfully_destroyed: 'The %{model_name} has been successfully destroyed'
+      item_successfully_updated: '%{model_name} has been successfully updated'
+      master_successfully_created: '%{model_name} has been created. Now you can go into detail'
+      missing_itstcosi: Cannot process due some item, stamping, color or size was deleted
+      must_provide_columns: 'You must indicate which fields you want to list'
+      no_records_found: "No records found"
+      order_closed: 'Order has been successfully closed'
+      order_compacted: 'Order was compacted successfully'
+      order_not_editable: 'The order is no longer in creation mode. It cannot be modified'
+      order_serviced: 'Order served. All units were served'
+      order_status_changed: 'Order status has been changed succesffuly'
+      order_status_validated: 'Order has been successfully validated'
+      order_undo_validate: "Order has been successfully invalidated"
+      ordered_more_than_available: "You have ordered some items with not available or peding stock"
+      orders_created_or_updated: "%{count} orders created or updated"
+      package_list_status_unvalidated: 'Package list has been successfully reopened'
+      package_list_status_validated: 'Package list has been successfully validated'
+      password_successfully_changed: 'The password has been successfully changed'
+      pasted_from_cliboard: "Pasted from clipboard: %{item_count}"
+      processed_orders: "%{count} orders marked as processed"
+      purchase_order_generated: 'Purchase order has been successfully generated'
+      recalc_incidences: "WARNING! Some units not serviced due order date is newer than serviced date"
+      report_generated: 'Report has been successfully generated'
+      reset_serviced_notifications: "Email notifications restored successfully."
+      serviced_recalculated: "Units served on orders have been successfully recalculated"
+      should_enter_report_selection: 'You must enter the report selection'
+      sql_error: 'Invalid selection for the report'
+      this_process_just_one_supplier: 'This process must have only one supplier selected'
+      to_many_processed_orders: "For security, no more than %{max} orders can be processed. Selected: %{count}"
+      user_has_no_rights: 'User has no rights'
+    duplicate:
+      text: 'Duplicate'
+      placeholder: 'Field value for the duplicated' #
+      success: '%{model_name} has been successfully duplicated'
+      error: 'There was an error creating a duplicate'
+    apply_massive_discount:
+      title: "Apply line_discount"
+      placeholder: "Applicable to all lines other than delivery notes that are in a deferred invoicing"
+      applied: "Applied line_discount on all lines"
+    change_sequence:
+      title: "Changing series"
+      placeholder: "Changing series means losing previous invoice numbering"
+      applied: "The series has been changed successfully"
+      must_be_different: "The new series cannot be the same"
+    dependent:
+      error: 'You can not delete %{model_name} because of having dependent elements'
+      not_assigned: 'Not assigned'
+      add_item: 'Add %{model_name}'
+      apply_library: 'Apply library'
+      apply_library_success:
+        one: 'Library "%{library_name}" has been successfully applied. A new record has been created'
+        other: 'Library "%{library_name}" has been successfully applied. Created %{count} new records'
+      apply_library_error: 'There was an error applying the library'
+    stamping_secondary:
+      clear: 'Remove secondary print'
+    item_price:
+      all_stampings: 'All prints'
+      all_sizes: 'All sizes'
+    item_cost:
+      all_colors: 'All colors'
+      all_sizes: 'All sizes'
+  datatables:
+    emptyTable:     "No records found"
+    info:           'Showing _START_ to _END_ of _TOTAL_ records'
+    infoEmpty:      'Showing 0 to 0 of 0 records'
+    infoFiltered:   "(Filtering a total of _MAX_ records)"
+    infoPostFix:    ''
+    thousands:      '.'
+    lengthMenu:     'Showing _MENU_ records'
+    loadingRecords: 'Loading ...'
+    processing:     'Processing ...'
+    search:         'Filter:'
+    zeroRecords:    "No records found"
+    paginate:
+      first: '«'
+      last: '»'
+      next: '›'
+      previous: '‹'
+    search_placeholder_salesman: "To filter by seller: /seller name/"
+  tooltips:
+    click_for_help: 'Click here to learn more'
+    multiselect_help: 'Press the key Ctrl at the same time you click to multi-select records'
+    rate_zero_for_no_price: 'Rate 0 does not print price'
+    stock_available_explained: 'Available'
+    stock_pending_explained: 'This stock includes garment that are not entered to our warehouse yet'
+    fso_code_help: "Search capitalized. Options available: <REF> *<CODE> /<NAME> .<PRINT_CODE> +<COLOR_CODE> - 12-digit <SIZE>" #
+    unvalidate: "Change status to 'validated'"
+    compact: 'For ONLINE orders, groups sizes and colors'
+    internal_notes_help: "Customers never will see this field"
+    manufacturing_warning_help: "Customers never will see this field. It's intended for manufacturing tasks"
+    limbos: "You will recive a 'limbos' report by email"
+  coffee:
+    prompts:
+      are_you_sure: "Are you sure?"
+      discard_changes: "Are you sure you want to discard changes?"
+  layout:
+    files: 'Files'
+    orders: 'Orders'
+    logout: 'Log out'
+  session:
+    remember_me: "Remember me on this computer for 15 days"
+    email: 'Email'
+    password: 'Password'
+    login: 'Login'
+    invalid_user: 'The user or the password is wrong'
+    admin: 'Manage'
+    user_list: 'User list'
+    please_login: 'Please, log in'
+    invalid_user_signature: 'There is a problem with your account, please contact an administrator'
+    profile: 'Profile'
+    change_password: 'Change password'
+    close_session: 'Log out'
+    use_gravatar: 'Use Gravatar to define a profile picture'
+    not_logged_yet: 'You have not logged yet'
+    suggested_browsers: 'This web application is designed to work with the latest versions of browsers Google Chrome, Mozilla Firefox, Safari or Internet Explorer 9+'
+    change_current_salesman: "Change current seller"
+    no_salesman: "No salesman"
+  items_spot_missing_details:
+    btn: With no detail
+    none: "No items missing details found"
+    any: "Missing detail items list was sent by email"
+    title: "%{year}. Missing detail items report"
+  will_paginate:
+    next_label: '>'
+    previous_label: '<'
+    page_entries_info:
+      single_page:
+        zero:  "There is no %{model}"
+        one:   "Showing 1 %{model}"
+        other: "Showing all %{count} %{model}"
+      single_page_html:
+        zero:  "There was no %{model}"
+        one:   "Showing <b>1</b> %{model}"
+        other: "Showing <b>all&nbsp;%{count}</b> %{model}"
+      multi_page: "Showing %{model} %{from} - %{to} of %{count}"
+      multi_page_html: "Showing %{model} <b>%{from}&nbsp;-&nbsp;%{to}</b> of <b>%{count}</b>"
+  errors:
+    cannot_change_status: Cannot change status of an invoiced delivery note
+    customer_is_locked: 'The customer is locked, you cannot use it'
+    due_percents_must_sum_100: "The total of the percentage rates must add up to 100%"
+    from_to_sizes_both_exists_or_are_nil: 'You must enter "From size" and "To size" or leave them blank'
+    key_violation: 'Repeated record in %{model_name}' #
+    must_remove_due_dates_before_uninvoicing: "Must remove due dates before uninvoicing"
+    salesman_have_not_this_brand: "This seller has not this brand %{brand_name}"
+    unique_package_list_number: 'The package list cannot be repeated for the same customer and series'
+    missing_locale: Unsupported language
+  stock_receiving:
+    no_pending_found: "No provided units found"
+    received_more_than_pending: "We have received more units than expected" #
+    received_less_than_pending: "We have received less units than expected"
+    received_remaining_stock: "We have received the remaining units that we had ordered"
+    cause: 'Cause'
+    incidences: "Incidents"
+  delivery:
+    title: "Create deliveries from package lists"
+    search_package_lists: 'Search package lists'
+    package_lists_found: "Package lists that are going to be part of the delivery note"
+    not_package_lists_found: "No package lists found"
+    create_delivery_notes: 'Create delivery notes'
+    create_invoices: 'Create invoices'
+    no_selected_items: "No delivery notes selected"
+    no_sequence_provided: "You must provide delivery notes serie"
+    no_collection_provided: "No collection provided"
+    package_number: "PACKAGE NUMBER:"
+    delivery_note_created: "Delivery notes have been successfully created"
+    invoice_created: "Inovices have been successfully created"
+    all_packages_must_be_from_same_customer: "All packages must be from the same customer"
+    customer_has_duplicated_brands: 'More than one seller is servicing same brand for this customer'
+    cannot_find_salesman: "Cannot find seller for this customer and brand"
+  accounting_export:
+    title: "Export accounting"
+    generate_invoices: 'Invoices'
+    generate_cashes: 'Charges'
+    generate_discounts: 'Discounts'
+    which_items: 'Which items?'
+    only_not_exported: 'Only not exported'
+    export_generated: "Export has been generated. %{count} invoices exported"
+  intrastat_export:
+    title: "INTRASTAT Export"
+    export_csv: 'Export CSV file'
+    export_xls: 'Invoices by customer'
+    sequence_explanation: "Delivery notes are included due this report needs detailed information"
+    report_type: "Report type"
+    detailed: "Detailed"
+    simplified: "Simplified"
+  deferred_invoicing:
+    title: "Deferred invoicing"
+    created: "Invoices have been created"
+    one_invoice_by_delivery_note: "One invoice per delivery note"
+    generate_invoices: "Generate invoices"
+    invoice_date: 'Invoice date'
+    invoice_sequence: "Invoice series"
+    total_invoice: 'Total invoice'
+    search_invoices: 'Search delivery notes'
+    preview: "Preview"
+    same_collection: 'The delivery notes must be from the same collection than the invoice'
+    warning_locked_customers: "Warning! Locked customers"
+    warning_some_customers_have_duplicated_brands: "Warning! some customers have duplicated brands"
+    warning_some_customers_have_no_salesman: "Warning! some customers have no seller"
+    this_sequence_has_no_brand_defined: "This sequence has no brand. Seller was not searched"
+    no_sequence_provided: "Must provide invoice sequence"
+  generate_bank_batches:
+    title: "Generation of bank remittances"
+    search_invoice_due_dates: 'Search due dates'
+    invoice_due_dates_found_number: "Found %{count} due dates"
+    invoice_due_dates_found: "Due dates that are going to be part of the remittance"
+    not_invoice_due_dates_found: "No due dates have been found"
+    no_selected_items: "There are no due dates selected"
+    no_bank_provided: "You must provide de bank account of the remittance"
+    bank_batch_created: "A remittance has been generated"
+    create_bank_batch: 'Create remittance'
+    only_not_casehd_nor_batched: 'We do not include due dates already charged or previously generated in other remittances'
+    desc: "Remittance description"
+    bank_batch_presented: 'Remittance presented'
+    bank_batch_closed: 'Remittance closed'
+    present: 'Present'
+    close: 'Close'
+    present_explanation: "Submission date in bank"
+    close_explanation: "Charge date. Mark due dates as charged and allowable" #
+  massive_invoice_printing:
+    title: "Bulk printing of delivery notes, invoices and receipts"
+    search: "Search for documents"
+    printed: 'Files ready for print' # "Generat fitxer de documents llest per a imprimir"
+    items_found: "Documents found"
+  clipboard:
+    copied: "Copied to clipboard"
+    copy_to: "Copy to clipboard"
+    copy: 'Copy'
+    cut: "Cut"
+    delete_after_paste: "Delete clipboard after paste"
+    missing: "You must enter a name and at least having one selected record"
+    paste: 'Paste'
+    placeholder: "Clipboard description"
+    title: "Clipboard"
+    toggle_sign: "Reverse sign"
+    not_same_year: "WARNING! data from another year. Item's code is a wildcard"
+    remove_wildcards: "Remove wildcard lines"
+    wildcards_removed: "Wildcard lines removed"
+  invoice:
+    next: 'Next ...'
+    date: 'Date:'
+    page: 'Page:'
+    due_dates: 'Due Dates:'
+    payment_method: 'Payment Method:'
+    issued_on: 'Issued On:'
+    delivery_note_count: 'Delivery Note Count:'
+    taxable_base: 'Taxable Base.'
+    vat: '%VAT'
+    vat_amount: 'VAT Amount'
+    equivalence_surcharge: '%EqS'
+    req_amount: 'EqS Amount.'
+  inventory:
+    sheet_abr: "Inventory Sheet"
+    sheet: "Excel sheet to update physical inventory"
+    inventory: 'Inventory'
+    success: "Inventory successfully applied"
+    fail: "Missing inventory sheet"
+  files:
+    download: 'Download'
+    upload: 'Upload'
+    upload_fail: "Cannot upload file or bad format"
+    upload_success: "File uploaded successfully"
+    bad_format: 'Bad file format'
+    download_fail: 'Requested file do not exist anymore'
+  ordered_delivered_report:
+    title: 'Ordered vs Delivered Report'
+    ordered: 'Ordered'
+    delivered: 'Delivered'
+rate:
+    no_pvp: No PVP
+    order: PVP depending on customer
+    1: Rate 1
+    2: Rate 2
+    3: Rate 3
+
+

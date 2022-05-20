@@ -1,0 +1,49 @@
+ca:
+  mails:
+    order_serviced_threshold: "La comanda %{collection} %{year}/%{order_id} ja està preparada al menys en un %{threshold}%"
+    copy_has_sent_to_customer: "S'ha enviat una còpia de la comanda a l'adreça del client: %{email}"
+    customer_has_been_created: "Nou client %{name} %{year}/%{code} creat per venedor %{salesman_name}"
+    customer_has_no_email: 'El client no té adreça de correu assignada'
+    delivery_note_has_been_created_from_web: "Nou albarà creat a la web %{year}/%{doc_number} - %{customer_name}"
+    email_sent_to: "Correu enviat correctament a %{recipient} emprant una coa. Pot trigar uns minuts"
+    email_to_customer: 'Enviar %{display_status} al client'
+    follow_link: "Per obrir, clicar aquí"
+    incidences_found: "S'han trobat incidències als següents articles:"
+    incidences: "Hi ha hagut incidències"
+    invoice_for_you_customer: "S'ha generat una factura per al vostre client"
+    new_failed_order_from_web: "Error en importar una comanda de la web"
+    new_order_from_web: "Nova comanda de la web: %{collection} %{year}/%{order_id}"
+    must_pick_from_warehouses: "Comanda rebuda no té prou estoc a la central: %{collection} %{year}/%{order_id}"
+    no_warehouses_stock: "No hi ha estoc a cap magatzem"
+    order_status_changed_list_email: "%{count} comandes han canviat d'estat a %{new_status}. Exercici: %{year}"
+    order_status_changed_to_reserved: 'La comanda %{collection} %{year}/%{order_id} ha sigut reservada per el venedor %{salesman_name}'
+    order_status_changed_to_on_creation: 'La comanda %{collection} %{year}/%{order_id} ha sigut tornada al estat en creació per el venedor %{salesman_name}'
+    order_status_changed_to_validated: 'Nova comanda %{collection} %{year}/%{order_id} validada per el venedor %{salesman_name}'
+    order_status_changed_to_void: 'La comanda %{collection} %{year}/%{order_id} ha sigut anul·lada per el venedor %{salesman_name}'
+    report_start: "Iniciat"
+    report_subtitle: "Selecció"
+    report_time_elapsed: "Ha trigat"
+    salesman_delivery_note: "Pou Nou. %{document_type} %{doc_number} %{customer_name}"
+    sent_by_email: '%{model_name} enviat per email al client i usuari'
+    sisventa_email_to_customer: 'Enviar fitxer SisVenta'
+    this_is_a_test_email: "Aquest correu és una prova. Exercici: %{year}"
+    your_delivery_note: "Pou Nou. %{document_type} %{doc_number}"
+    your_documents: "%{count} documents llestos per a imprimir"
+    your_order_status_changed_to_on_creation: "La comanda %{collection} %{year}/%{order_id} ha sigut tornada al estat en creació per el venedor %{salesman_name}"
+    your_order_status_changed_to_reserved: "Pou Nou. Còpia de la comanda reservada %{collection} %{year}/%{order_id}"
+    your_order_status_changed_to_validated: "Pou Nou. Còpia de la comanda validada %{collection} %{year}/%{order_id}"
+    your_order_status_changed_to_void: "Pou Nou. Còpia de la comanda anul·lada %{collection} %{year}/%{order_id}"
+    your_order: "Pou Nou. Còpia de la comanda %{collection} %{year}/%{order_id}"
+    your_report: "Llistat o procés generat: %{title}"
+    your_labels_report: "S'han generat fitxers d'etiquetes per a imprimir"
+    mailgun:
+      spam:
+        subject: 'El correu que haveu enviat a <%{recipient}> ha sigut marcat com a SPAM'
+        body: "Hauríeu de contactar amb %{recipient} per mirar què ha passat"
+      permanent_failure:
+        subject: "El correu que haveu enviat a <%{recipient}> no s'ha pogut entregar"
+        body: "La causa del error és: %{message}"
+      temporary_failure:
+        subject: "El correu que haveu enviat a <%{recipient}> no es pot entregar de moment. Es reintentarà més tard"
+        body: "La causa del problema és: %{message}"
+
