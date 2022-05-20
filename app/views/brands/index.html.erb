@@ -20,6 +20,9 @@
         <td>
           <%= brand.yes_or_not %>
         </td>
+        <td>
+          <%= brand.bod %>
+        </td>
         <td><%= link_to 'Show', brand, data: {'bs-toggle': :tooltip, 'bs-placement': :top }, title: 'Tooltip on top' %></td>
         <td><%= link_to 'Edit', edit_brand_path(brand) %></td>
         <td><%= link_to 'Destroy', brand, method: :delete, data: { confirm: 'Are you sure?' } %></td>

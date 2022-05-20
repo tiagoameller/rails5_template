@@ -1,0 +1,52 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree ../../../vendor/vanillajs-datepicker/css/.
+ *= require_self
+ *= require_tree .
+*/
+
+@import "bootstrap";
+@import 'bootstrap_icons';
+
+.version_text {
+  font-size: small;
+}
+.year_text {
+  margin: 18px 0;
+  font-size: 1.25em;
+  height: 20px;
+  font-weight: bolder;
+}
+
+.avatar-circle {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.avatar-text {
+ color: #fff;
+ transform: translate(-50%, -50%);
+ left: 50%;
+ top: 50%;
+ position: absolute;
+}
+
+nav li .avatar-circle{
+ width: 32px;
+ height: 32px;
+ margin: 8px 0 0 16px;
+ border-radius: 50%;
+}

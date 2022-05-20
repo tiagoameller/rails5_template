@@ -47,6 +47,7 @@ gem 'bootstrap_icons_rails'
 gem 'jquery-rails'
 
 gem 'semver2'
+gem 'momentjs-rails'
 
 group :development, :test do
   gem 'faker'

@@ -15,6 +15,10 @@
     <%= form.label :name, class: 'form-label' %>
     <%= form.text_field :name, class: 'form-control focus-me' %>
   </div>
+  <div class="mb-3 field">
+    <%= form.label :bod, class: 'form-label' %>
+    <%= form.text_field :bod, class: 'form-control datepicker_input', data: { title: :bod } %>
+  </div>
   <div class="mb-3">
     <div class="form-check form-switch">
       <%= form.check_box :yes_or_not, class: 'form-check-input', role: :switch %>
