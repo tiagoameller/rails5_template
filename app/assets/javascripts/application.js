@@ -17,6 +17,7 @@
 //= require jquery-ui
 //= require popper
 //= require bootstrap
+//= require bootstrap-table/bootstrap-table
 //= require_tree .
 //= require_tree ./global/
 //= require_tree ./models/

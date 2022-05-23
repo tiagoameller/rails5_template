@@ -43,56 +43,48 @@
     </ul>
   </div>
   <div class="row">
-    <div class="table-responsive">
-      <table class="footable table index_table toggle-square-filled toggle-medium table-striped table-bordered table-hover"
-             data-filter-minimum="1"
-             data-filter="#filter"
-             data-page-navigation=".pagination"
-             data-limit-navigation="5"
-             <%#= data_page_size(:index) %>
-             <%= 5 %> >
-        <thead>
-          <tr>
-            <th data-sort-initial="true" data-toggle="true"><%= Brand.human_attribute_name(:name) %></th>
-            <% if current_user.office_admin? %>
-              <th data-sort-ignore="true"/>
-              <th data-sort-ignore="true"/>
-              <th data-sort-ignore="true"/>
-            <% end %>
-          </tr>
-        </thead>
-        <tbody>
-          <%= content_tag_for(:tr, @brands) do |brand| %>
-            <td><%= brand.name %></td>
-            <% if current_user.office_admin? %>
-              <td class="text-center">
-                <%= link_to brand, class: 'btn btn-info btn-sm' do %>
-                  <span class="glyphicon glyphicon-ok"/>
-                <% end %>
-              </td>
-              <td class="text-center">
-                <%= link_to edit_brand_path(brand), class: 'btn btn-success btn-sm' do %>
-                  <span class="glyphicon glyphicon-pencil"/>
-                <% end %>
-              </td>
-              <td class="text-center">
-                <%= link_to brand, class: 'btn btn-danger btn-sm', method: :delete, data: { confirm: t('views.are_you_sure') } do %>
-                  <span class="glyphicon glyphicon-trash"/>
-                <% end %>
-              </td>
-            <% end %>
+    <table data-toggle="table">
+      <thead>
+        <tr>
+          <th data-sort-initial="true" data-toggle="true"><%= Brand.human_attribute_name(:name) %></th>
+          <% if current_user.office_admin? %>
+            <th data-sort-ignore="true"/>
+            <th data-sort-ignore="true"/>
+            <th data-sort-ignore="true"/>
           <% end %>
-        </tbody>
-        <tfoot class="hide-if-no-paging">
-          <tr>
-            <td colspan="9" class="text-center">
-              <nav>
-                <ul class="pagination"/>
-              </nav>
+        </tr>
+      </thead>
+      <tbody>
+        <%= content_tag_for(:tr, @brands) do |brand| %>
+          <td><%= brand.name %></td>
+          <% if current_user.office_admin? %>
+            <td class="text-center">
+              <%= link_to brand, class: 'btn btn-info btn-sm' do %>
+                <span class="glyphicon glyphicon-ok"/>
+              <% end %>
             </td>
-          </tr>
-        </tfoot>
-      </table>
-    </div>
+            <td class="text-center">
+              <%= link_to edit_brand_path(brand), class: 'btn btn-success btn-sm' do %>
+                <span class="glyphicon glyphicon-pencil"/>
+              <% end %>
+            </td>
+            <td class="text-center">
+              <%= link_to brand, class: 'btn btn-danger btn-sm', method: :delete, data: { confirm: t('views.are_you_sure') } do %>
+                <span class="glyphicon glyphicon-trash"/>
+              <% end %>
+            </td>
+          <% end %>
+        <% end %>
+      </tbody>
+      <tfoot class="hide-if-no-paging">
+        <tr>
+          <td colspan="9" class="text-center">
+            <nav>
+              <ul class="pagination"/>
+            </nav>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
   </div>
 </div>
