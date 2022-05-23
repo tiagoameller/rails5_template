@@ -4,3 +4,23 @@
 
 $(document).on 'turbolinks:load', ->
   $('.focus-me').focus()
+
+  $('#brands-table').bootstrapTable
+    url: 'brands.json'
+    pagination: true
+    search: true
+    columns: [
+      {
+        field: 'id'
+        title: 'Item ID'
+      }
+      {
+        field: 'name'
+        title: 'Item Name'
+      }
+      {
+        field: 'created_at'
+        title: 'created at'
+      }
+    ]
+
