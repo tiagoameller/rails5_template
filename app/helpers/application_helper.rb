@@ -20,4 +20,13 @@ module ApplicationHelper
       'primary'
     end
   end
+
+  def locale_xx_yy(locale)
+    case locale
+    when :ca
+      'ca-ES'
+    else
+      'en-US'
+    end
+  end
 end

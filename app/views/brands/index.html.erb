@@ -1,13 +1,10 @@
-<script type="text/javascript">
-  var record_count = <%= @brands.count %>;
+<script>
+  new_path = "<%= new_brand_path %>";
+  excel_path = "<%= brands_path(format: :xls) %>";
 </script>
 
-<div class="page-header">
-  <div class="row">
-    <div class="col-md-8">
-      <h1><%= @current_page_title %></h1>
-    </div>
-    <div class="col-md-4 action_buttons">
+<h2><%= @current_page_title %></h2>
+    <!-- <div class="col-md-4 action_buttons">
       <ul class="list-inline">
         <% if current_user.office_admin? %>
           <li>
@@ -26,24 +23,66 @@
       </ul>
     </div>
   </div>
-</div>
+</div> -->
 <div class="container">
-  <div class="row upper_grid_row">
-    <ul class="list-inline">
-      <li class="col-lg-3 col-md-4 col-xs-6">
-        <div class="input-group">
-          <input type="text" class="form-control" id="filter" placeholder="<%= t('views.filter') %>">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button" id="clear-filter"> <span class="glyphicon glyphicon-remove"></span></button>
-            </span>
-          </input>
-        </div>
-      </li>
-      <li><div class="form-control col-lg-2 col-md-1 col xs-1" id="record_count"><%= @brands.count %></div></li>
-    </ul>
-  </div>
-  <div class="row">
-    <table data-toggle="table" id="brands-table">
+    <table data-toggle="table"
+      id="brands-table"
+      data-url="<%= brands_path(format: :json) %>"
+      data-buttons-class="dark"
+      data-buttons="BTTable.default_custom_buttons"
+      data-locale="<%= locale_xx_yy(I18n.locale) %>"
+      data-maintain-meta-data="true"
+      data-pagination="true"
+      data-remember-order="true"
+      data-search-accent-neutralise="true"
+      data-search-highlight="true"
+      data-search="true"
+      data-server-sort="true"
+      data-show-columns-toggle-all="true"
+      data-show-columns="true"
+      data-show-extended-pagination="true"
+      data-show-fullscreen="true"
+      data-show-refresh="true"
+      data-show-toggle="true"
+      data-side-pagination="server"
+      data-sortable="true"
+      data-table-bordered="true"
+      data-table-hover="true"
+      data-table-striped="true"
+      data-toolbar=".toolbar"
+      >
+      <thead>
+        <tr>
+          <th data-field="id" data-sortable="true">Item ID</th>
+          <th data-field="name" data-sortable="true">Item Name</th>
+          <th data-field="bod" data-sortable="true">Date of Birth</th>
+        </tr>
+      </thead>
+    </table>
+
+<script>
+  // function custom_buttons() {
+  //   return {
+  //     btnExcel: {
+  //       text: 'Excel',
+  //       icon: 'bi-file-earmark-excel',
+  //       event: () => alert('Do some stuff to e.g. search all users which has logged in the last week'),
+  //       attributes: {
+  //         title: 'Search all users which has logged in the last week'
+  //       }
+  //     },
+  //     btnAdd: {
+  //       text: 'Add',
+  //       icon: 'bi-file-earmark-plus',
+  //       event: () => alert('Do some stuff to e.g. search all users which has logged in the last week'),
+  //       attributes: {
+  //         title: 'Search all users which has logged in the last week'
+  //       }
+  //     }
+  //   }
+  // }
+</script>
+
       <!-- <thead>
         <tr>
           <th data-sort-initial="true" data-toggle="true"><%= Brand.human_attribute_name(:name) %></th>
@@ -86,5 +125,4 @@
         </tr>
       </tfoot> -->
     </table>
-  </div>
 </div>

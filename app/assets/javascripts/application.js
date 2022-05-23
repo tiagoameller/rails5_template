@@ -18,6 +18,8 @@
 //= require popper
 //= require bootstrap
 //= require bootstrap-table/bootstrap-table
+//= require bootstrap-table/locale/bootstrap-table-ca-ES.js
+//= require bootstrap-table/locale/bootstrap-table-en-US.js
 //= require_tree .
 //= require_tree ./global/
 //= require_tree ./models/
