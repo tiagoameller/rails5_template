@@ -1,6 +1,5 @@
 class BrandsController < ApplicationController
-  # include CsvXlsExport
-  # TODO: CsvXlsExport
+  include CsvXlsExport
   # before_action :check_user_design_or_office_or_admin, only: [:new, :create, :edit, :update, :destroy]
   # TODO: check_user_design_or_office_or_admin
   before_action :set_brand, only: [:show, :edit, :update, :destroy, :history]
@@ -14,7 +13,7 @@ class BrandsController < ApplicationController
     respond_to do |format|
       format.html
       format.csv { render text: @brands.to_csv }
-      # format.xls
+      format.xls
     end
   end
 

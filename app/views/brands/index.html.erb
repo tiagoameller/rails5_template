@@ -1,34 +1,98 @@
-<h1>Brands</h1>
+<script type="text/javascript">
+  var record_count = <%= @brands.count %>;
+</script>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @brands.each do |brand| %>
-      <tr>
-        <td>
-          <%= bi_icon('alarm') %>
-          <%= brand.name %>
-        </td>
-        <td>
-          <%= brand.yes_or_not %>
-        </td>
-        <td>
-          <%= brand.bod %>
-        </td>
-        <td><%= link_to 'Show', brand, data: {'bs-toggle': :tooltip, 'bs-placement': :top }, title: t('views.show') %></td>
-        <td><%= link_to 'Edit', edit_brand_path(brand) %></td>
-        <td><%= link_to 'Destroy', brand, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Brand', new_brand_path %>
+<div class="page-header">
+  <div class="row">
+    <div class="col-md-8">
+      <h1><%= @current_page_title %></h1>
+    </div>
+    <div class="col-md-4 action_buttons">
+      <ul class="list-inline">
+        <% if current_user.office_admin? %>
+          <li>
+            <%= link_to new_brand_path, class: 'btn btn-primary', id: 'action_new_button' do %>
+              <span class="glyphicon glyphicon-plus"></span>
+              <%= t('views.new') %> (alt-n)
+            <% end %>
+          </li>
+        <% end %>
+        <li>
+          <%= link_to brands_path(format: :xls), class: 'btn btn-info' do %>
+            <i class="fa fa-file-excel-o"></i>
+            <%= t('views.calc_sheet') %>
+          <% end %>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row upper_grid_row">
+    <ul class="list-inline">
+      <li class="col-lg-3 col-md-4 col-xs-6">
+        <div class="input-group">
+          <input type="text" class="form-control" id="filter" placeholder="<%= t('views.filter') %>">
+            <span class="input-group-btn">
+              <button class="btn btn-default" type="button" id="clear-filter"> <span class="glyphicon glyphicon-remove"></span></button>
+            </span>
+          </input>
+        </div>
+      </li>
+      <li><div class="form-control col-lg-2 col-md-1 col xs-1" id="record_count"><%= @brands.count %></div></li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="table-responsive">
+      <table class="footable table index_table toggle-square-filled toggle-medium table-striped table-bordered table-hover"
+             data-filter-minimum="1"
+             data-filter="#filter"
+             data-page-navigation=".pagination"
+             data-limit-navigation="5"
+             <%#= data_page_size(:index) %>
+             <%= 5 %> >
+        <thead>
+          <tr>
+            <th data-sort-initial="true" data-toggle="true"><%= Brand.human_attribute_name(:name) %></th>
+            <% if current_user.office_admin? %>
+              <th data-sort-ignore="true"/>
+              <th data-sort-ignore="true"/>
+              <th data-sort-ignore="true"/>
+            <% end %>
+          </tr>
+        </thead>
+        <tbody>
+          <%= content_tag_for(:tr, @brands) do |brand| %>
+            <td><%= brand.name %></td>
+            <% if current_user.office_admin? %>
+              <td class="text-center">
+                <%= link_to brand, class: 'btn btn-info btn-sm' do %>
+                  <span class="glyphicon glyphicon-ok"/>
+                <% end %>
+              </td>
+              <td class="text-center">
+                <%= link_to edit_brand_path(brand), class: 'btn btn-success btn-sm' do %>
+                  <span class="glyphicon glyphicon-pencil"/>
+                <% end %>
+              </td>
+              <td class="text-center">
+                <%= link_to brand, class: 'btn btn-danger btn-sm', method: :delete, data: { confirm: t('views.are_you_sure') } do %>
+                  <span class="glyphicon glyphicon-trash"/>
+                <% end %>
+              </td>
+            <% end %>
+          <% end %>
+        </tbody>
+        <tfoot class="hide-if-no-paging">
+          <tr>
+            <td colspan="9" class="text-center">
+              <nav>
+                <ul class="pagination"/>
+              </nav>
+            </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </div>
+</div>

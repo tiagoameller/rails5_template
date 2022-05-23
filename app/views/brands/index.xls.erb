@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:o="urn:schemas-microsoft-com:office:office"
+  xmlns:x="urn:schemas-microsoft-com:office:excel"
+  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+  xmlns:html="http://www.w3.org/TR/REC-html40">
+  <Styles>
+    <Style ss:ID="report_title">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+      <Font ss:Bold="1" ss:Italic="1" ss:Size="12"/>
+    </Style>
+    <Style ss:ID="column_header">
+      <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+      <Font ss:Bold="1"/>
+    </Style>
+    <Style ss:ID="total">
+      <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+      <Font ss:Bold="1"/>
+    </Style>
+  </Styles>
+  <Worksheet ss:Name="<%= Brand.model_name.human(count: :many) %>">
+    <Table>
+      <Row>
+        <Cell ss:MergeAcross="1" ss:StyleID="report_title">
+          <Data ss:Type="String"><%= @current_page_title %></Data>
+        </Cell>
+      </Row>
+      <Row>
+        <Cell ss:StyleID="column_header"><Data ss:Type="String"><%= Brand.human_attribute_name(:name) %></Data></Cell>
+      </Row>
+      <% @brands.each do |brand| %>
+        <Row>
+          <Cell><Data ss:Type="String"><%= brand.name %></Data></Cell>
+        </Row>
+      <% end %>
+      <Row>
+        <Cell ss:StyleID="total">
+          <Data ss:Type="Number"><%= @brands.count %></Data>
+        </Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>

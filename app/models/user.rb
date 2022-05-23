@@ -36,4 +36,40 @@ class User < ApplicationRecord
   def user_can_change_salesman?
     true
   end
+
+  def self.admin_emails
+    User.where(receive_admin_emails: true).pluck(:email)
+  end
+
+  def salesman?
+    salesman.present?
+  end
+
+  def office_admin?
+    %w(office admin).include? admin_level
+  end
+
+  def delivery_office_admin?
+    %w(delivery delivery_super office admin).include? admin_level
+  end
+
+  def delivery_super_office_admin?
+    %w(delivery_super office admin).include? admin_level
+  end
+
+  def delivery_group?
+    %w(delivery delivery_super).include? admin_level
+  end
+
+  def design_delivery_office_admin?
+    %w(design delivery delivery_super office admin).include? admin_level
+  end
+
+  def design_office_admin?
+    %w(design office admin).include? admin_level
+  end
+
+  def commercial_office_admin?
+    %w(commercial office admin).include? admin_level
+  end
 end

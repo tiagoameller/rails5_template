@@ -45,6 +45,8 @@ gem 'devise', '~> 4.8', '>= 4.8.1'
 gem 'bootstrap', '~> 5.1.3'
 gem 'bootstrap_icons_rails'
 gem 'jquery-rails'
+# https://github.com/jquery-ui-rails/jquery-ui-rails/blob/v5.0.5/README.md
+gem 'jquery-ui-rails'
 gem 'momentjs-rails'
 
 gem 'rails-i18n'
@@ -53,8 +55,11 @@ gem 'i18n-js', '~> 3.9', '>= 3.9.2'
 
 gem 'semver2'
 
+gem 'record_tag_helper'
+
 group :development, :test do
   gem 'pry'
+  gem 'pry-rails'
   gem 'pry-nav'
   gem 'faker'
   gem 'database_cleaner'
