@@ -9,7 +9,7 @@ class BrandsController < ApplicationController
   # GET /brands
   def index
     @current_page_title = Brand.model_name.human(count: :many)
-    @brands = Brand.order(:name)
+    @brands = Brand.order("#{params[:sort]} #{params[:order]}").limit(params[:limit]).offset(params[:offset])
     respond_to do |format|
       format.json { render json: @brands }
       format.html

@@ -28,11 +28,15 @@
     <table data-toggle="table"
       id="brands-table"
       data-url="<%= brands_path(format: :json) %>"
+      data-sticky-header="true"
       data-buttons-class="dark"
       data-buttons="BTTable.default_custom_buttons"
+      data-cookie="true"
+      data-cookie-id-table="brands-table"
       data-locale="<%= locale_xx_yy(I18n.locale) %>"
       data-maintain-meta-data="true"
       data-pagination="true"
+      data-page-size="10"
       data-remember-order="true"
       data-search-accent-neutralise="true"
       data-search-highlight="true"
@@ -40,7 +44,6 @@
       data-server-sort="true"
       data-show-columns-toggle-all="true"
       data-show-columns="true"
-      data-show-extended-pagination="true"
       data-show-fullscreen="true"
       data-show-refresh="true"
       data-show-toggle="true"
@@ -50,7 +53,12 @@
       data-table-hover="true"
       data-table-striped="true"
       data-toolbar=".toolbar"
+      data-pagination-parts='["pageInfo", "pageSize", "pageList"]'
+
       >
+
+      <!-- data-show-extended-pagination="true" -->
+
       <thead>
         <tr>
           <th data-field="id" data-sortable="true">Item ID</th>

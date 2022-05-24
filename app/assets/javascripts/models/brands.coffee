@@ -5,6 +5,8 @@
 $(document).on 'turbolinks:load', ->
   $('.focus-me').focus()
 
+  # $('#brands-table').bootstrapTable('refresh', { silent: true })
+
   # $('#brands-table').bootstrapTable {
     # url: '/brands'
     # search: true
