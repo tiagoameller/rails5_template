@@ -11,7 +11,7 @@ class BrandsController < ApplicationController
     @current_page_title = Brand.model_name.human(count: :many)
     @brands = Brand.order("#{params[:sort]} #{params[:order]}").limit(params[:limit]).offset(params[:offset])
     respond_to do |format|
-      format.json { render json: @brands }
+      format.json
       format.html
       format.csv { render text: @brands.to_csv }
       format.xls
