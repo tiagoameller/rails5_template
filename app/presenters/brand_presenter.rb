@@ -1,0 +1,2 @@
+class BrandPresenter < ApplicationPresenter
+end

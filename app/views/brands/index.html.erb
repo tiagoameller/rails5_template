@@ -28,13 +28,12 @@
     data-buttons-class="dark"
     data-buttons="BTTable.default_custom_buttons"
     data-cookie-id-table="brands-table"
-    data-cookie="true"
     data-height="856"
     data-locale="<%= locale_xx_yy(I18n.locale) %>"
-    data-maintain-meta-data="true"
     data-page-size="20"
-    data-pagination-parts='["pageInfo", "pageList"]'
+    data-pagination-parts="['pageInfo', 'pageList']"
     data-pagination="true"
+    data-query-params-type="limit"
     data-remember-order="true"
     data-search-accent-neutralise="true"
     data-search-highlight="true"
@@ -42,6 +41,7 @@
     data-server-sort="true"
     data-show-columns-toggle-all="true"
     data-show-columns="true"
+    data-show-extended-pagination="true"
     data-show-refresh="true"
     data-show-toggle="true"
     data-side-pagination="server"
@@ -53,11 +53,14 @@
     data-toggle="table"
     data-toolbar=".toolbar"
     data-url="<%= brands_path(format: :json) %>"
+    data-cookie="true"
+    data-maintain-meta-data="true"
+
     >
     <!--
-      data-pagination-v-align="top"
-      data-show-extended-pagination="true"
       data-show-fullscreen="true"
+      data-pagination-v-align="top"
+      data-show-pagination-switch="true"
 
 
 
@@ -94,48 +97,3 @@
   //   }
   // }
 </script>
-
-      <!-- <thead>
-        <tr>
-          <th data-sort-initial="true" data-toggle="true"><%= Brand.human_attribute_name(:name) %></th>
-          <% if current_user.office_admin? %>
-            <th data-sort-ignore="true"/>
-            <th data-sort-ignore="true"/>
-            <th data-sort-ignore="true"/>
-          <% end %>
-        </tr>
-      </thead>
-      <tbody>
-        <%= content_tag_for(:tr, @brands) do |brand| %>
-          <td><%= brand.name %></td>
-          <% if current_user.office_admin? %>
-            <td class="text-center">
-              <%= link_to brand, class: 'btn btn-info btn-sm' do %>
-                <span class="glyphicon glyphicon-ok"/>
-              <% end %>
-            </td>
-            <td class="text-center">
-              <%= link_to edit_brand_path(brand), class: 'btn btn-success btn-sm' do %>
-                <span class="glyphicon glyphicon-pencil"/>
-              <% end %>
-            </td>
-            <td class="text-center">
-              <%= link_to brand, class: 'btn btn-danger btn-sm', method: :delete, data: { confirm: t('views.are_you_sure') } do %>
-                <span class="glyphicon glyphicon-trash"/>
-              <% end %>
-            </td>
-          <% end %>
-        <% end %>
-      </tbody>
-      <tfoot class="hide-if-no-paging">
-        <tr>
-          <td colspan="9" class="text-center">
-            <nav>
-              <ul class="pagination"/>
-            </nav>
-          </td>
-        </tr>
-      </tfoot> -->
-    <!-- </table> -->
-
-<!-- </div> -->
