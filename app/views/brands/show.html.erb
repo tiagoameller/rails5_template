@@ -12,13 +12,4 @@
   </li>
 </ul>
 
-<div class="float-end mt-4">
-  <%= link_to brands_path, class: 'btn btn-outline-secondary', id: 'btn_back' do %>
-  <%= bi_icon('arrow-return-left') %>
-    <%= t('views.back') %> (esc)
-  <% end %>
-  <%= link_to edit_brand_path(@brand), class: 'btn btn-outline-primary', id: 'action_edit_button' do %>
-    <%= bi_icon('pencil') %>
-    <%= t('views.edit') %> (alt-f3)
-  <% end %>
-</div>
+<%= render 'bottom_buttons', model: @brand %>

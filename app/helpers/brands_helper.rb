@@ -5,6 +5,7 @@ module BrandsHelper
         column[:id] = brand.id
         column[:name] = brand.name
         column[:bod] = brand.bod
+        column[:yes_or_not] = brand.yes_or_not
         # column << brand.image_thumbnail_link
         # column << link_to(brand.name, brand_path(brand), remote: true, data: { id: brand.id })
         # column << brand.description

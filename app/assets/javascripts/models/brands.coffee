@@ -5,6 +5,15 @@
 $(document).on 'turbolinks:load', ->
   $('.focus-me').focus()
 
+  # $('#brands-table').on('click-row.bs.table', (row, element, field) ->
+  #   # console.log row
+  #   console.log element
+  #   window.location = '/brands/' + element.id
+  #   # window.location = edit_brand_path(element.id)
+  #   # console.log field
+  # )
+
+
   # $('#brands-table').bootstrapTable('refresh', { silent: true })
 
   # $('#brands-table').bootstrapTable {

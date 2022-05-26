@@ -1,35 +1,21 @@
 <script>
-  new_path = "<%= new_brand_path %>";
+  table_id = "#brands-table";
+  // optional: remove lines to deactivate action
+  edit_path = "<%= edit_brand_path(id: '<ID>') %>";
   excel_path = "<%= brands_path(format: :xls) %>";
+  new_path = "<%= new_brand_path %>";
+  show_path = "<%= brand_path(id: '<ID>') %>";
 </script>
 
 <h2><%= @current_page_title %></h2>
-    <!-- <div class="col-md-4 action_buttons">
-      <ul class="list-inline">
-        <% if current_user.office_admin? %>
-          <li>
-            <%= link_to new_brand_path, class: 'btn btn-primary', id: 'action_new_button' do %>
-              <span class="glyphicon glyphicon-plus"></span>
-              <%= t('views.new') %> (alt-n)
-            <% end %>
-          </li>
-        <% end %>
-        <li>
-          <%= link_to brands_path(format: :xls), class: 'btn btn-info' do %>
-            <i class="fa fa-file-excel-o"></i>
-            <%= t('views.calc_sheet') %>
-          <% end %>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div> -->
 <table id="brands-table"
     data-buttons-class="dark"
     data-buttons="BTTable.default_custom_buttons"
     data-cookie-id-table="brands-table"
+    data-cookie="true"
     data-height="856"
     data-locale="<%= locale_xx_yy(I18n.locale) %>"
+    data-maintain-meta-data="true"
     data-page-size="20"
     data-pagination-parts="['pageInfo', 'pageList']"
     data-pagination="true"
@@ -53,47 +39,22 @@
     data-toggle="table"
     data-toolbar=".toolbar"
     data-url="<%= brands_path(format: :json) %>"
-    data-cookie="true"
-    data-maintain-meta-data="true"
 
     >
     <!--
+      data-id-field="id"
+      data-row-attributes="BTTable.rowAttributes"
       data-show-fullscreen="true"
       data-pagination-v-align="top"
       data-show-pagination-switch="true"
-
-
 
     -->
 
     <thead>
       <tr>
-        <th data-field="id" data-sortable="true">Item ID</th>
         <th data-field="name" data-sortable="true">Item Name</th>
         <th data-field="bod" data-sortable="true">Date of Birth</th>
+        <th data-field="yes_or_not" data-sortable="true">Yes or Not</th>
       </tr>
     </thead>
   </table>
-
-<script>
-  // function custom_buttons() {
-  //   return {
-  //     btnExcel: {
-  //       text: 'Excel',
-  //       icon: 'bi-file-earmark-excel',
-  //       event: () => alert('Do some stuff to e.g. search all users which has logged in the last week'),
-  //       attributes: {
-  //         title: 'Search all users which has logged in the last week'
-  //       }
-  //     },
-  //     btnAdd: {
-  //       text: 'Add',
-  //       icon: 'bi-file-earmark-plus',
-  //       event: () => alert('Do some stuff to e.g. search all users which has logged in the last week'),
-  //       attributes: {
-  //         title: 'Search all users which has logged in the last week'
-  //       }
-  //     }
-  //   }
-  // }
-</script>
