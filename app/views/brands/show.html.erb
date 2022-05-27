@@ -1,35 +1,15 @@
-<!-- <div class="d-flex justify-content-center align-items-center container">
-  <div class="card py-5 px-3">
-      <h5 class="m-0">Mobile phone verification</h5><span class="mobile-text">Enter the code we just send on your mobile phone <b class="text-danger">+91 86684833</b></span>
-      <div class="d-flex flex-row mt-5"><input type="text" class="form-control" autofocus=""><input type="text" class="form-control"><input type="text" class="form-control"><input type="text" class="form-control"></div>
-      <div class="text-center mt-5"><span class="d-block mobile-text">Don't receive the code?</span><span class="font-weight-bold text-danger cursor">Resend</span></div>
-  </div>
-</div> -->
+<h2><%= @current_page_title %></h2>
 
-<div class="justify-content-center align-items-center container">
-  <div class="card">
-    <div class="card-body">
-      <h5 class="card-title"><%= @current_page_title %></h5>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-          <strong><%= Brand.human_attribute_name(:name) %>:</strong> <%= @brand.name %>
-        </li>
-        <li class="list-group-item">
-          <strong><%= Brand.human_attribute_name(:yes_or_not) %>:</strong> <%= @brand.yes_or_not %>
-        </li>
-        <li class="list-group-item">
-          <strong><%= Brand.human_attribute_name(:name) %>:</strong> <%= @brand.name %>
-        </li>
-      </ul>
-      <div class="card-footer text-center mt-4">
-        <%= link_to brands_path, class: 'btn btn-outline-secondary', id: 'btn_back' do %>
-        <%= bi_icon('arrow-return-left') %>
-          <%= t('views.back') %> (esc)
-        <% end %>
-        <%= link_to edit_brand_path(@brand), class: 'btn btn-outline-primary', id: 'action_edit_button' do %>
-          <%= bi_icon('pencil') %>
-          <%= t('views.edit') %> (alt-f3)
-        <% end %>
-      </div>
-  </div>
-</div>
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">
+    <strong><%= Brand.human_attribute_name(:name) %>:</strong> <%= @brand.name %>
+  </li>
+  <li class="list-group-item">
+    <strong><%= Brand.human_attribute_name(:yes_or_not) %>:</strong> <%= @brand.yes_or_not %>
+  </li>
+  <li class="list-group-item">
+    <strong><%= Brand.human_attribute_name(:name) %>:</strong> <%= @brand.name %>
+  </li>
+</ul>
+
+<%= render 'bottom_buttons', model: @brand %>

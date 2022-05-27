@@ -9,10 +9,11 @@ class BrandsController < ApplicationController
   # GET /brands
   def index
     @current_page_title = Brand.model_name.human(count: :many)
-    @brands = Brand.order(:name)
+    datatable = BrandsDatatable.new(view_context)
+    @brands = datatable.dataset
     respond_to do |format|
+      format.json { render json: datatable.to_json }
       format.html
-      format.csv { render text: @brands.to_csv }
       format.xls
     end
   end

@@ -44,6 +44,7 @@ gem 'devise', '~> 4.8', '>= 4.8.1'
 
 gem 'bootstrap', '~> 5.1.3'
 gem 'bootstrap_icons_rails'
+gem 'bootstrap-table-rails'
 gem 'jquery-rails'
 # https://github.com/jquery-ui-rails/jquery-ui-rails/blob/v5.0.5/README.md
 gem 'jquery-ui-rails'

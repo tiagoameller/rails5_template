@@ -1,98 +1,60 @@
-<script type="text/javascript">
-  var record_count = <%= @brands.count %>;
+<script>
+  table_id = "#brands-table";
+  // optional: remove lines to deactivate action
+  edit_path = "<%= edit_brand_path(id: '<ID>') %>";
+  excel_path = "<%= brands_path(format: :xls) %>";
+  new_path = "<%= new_brand_path %>";
+  show_path = "<%= brand_path(id: '<ID>') %>";
 </script>
 
-<div class="page-header">
-  <div class="row">
-    <div class="col-md-8">
-      <h1><%= @current_page_title %></h1>
-    </div>
-    <div class="col-md-4 action_buttons">
-      <ul class="list-inline">
-        <% if current_user.office_admin? %>
-          <li>
-            <%= link_to new_brand_path, class: 'btn btn-primary', id: 'action_new_button' do %>
-              <span class="glyphicon glyphicon-plus"></span>
-              <%= t('views.new') %> (alt-n)
-            <% end %>
-          </li>
-        <% end %>
-        <li>
-          <%= link_to brands_path(format: :xls), class: 'btn btn-info' do %>
-            <i class="fa fa-file-excel-o"></i>
-            <%= t('views.calc_sheet') %>
-          <% end %>
-        </li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="container">
-  <div class="row upper_grid_row">
-    <ul class="list-inline">
-      <li class="col-lg-3 col-md-4 col-xs-6">
-        <div class="input-group">
-          <input type="text" class="form-control" id="filter" placeholder="<%= t('views.filter') %>">
-            <span class="input-group-btn">
-              <button class="btn btn-default" type="button" id="clear-filter"> <span class="glyphicon glyphicon-remove"></span></button>
-            </span>
-          </input>
-        </div>
-      </li>
-      <li><div class="form-control col-lg-2 col-md-1 col xs-1" id="record_count"><%= @brands.count %></div></li>
-    </ul>
-  </div>
-  <div class="row">
-    <div class="table-responsive">
-      <table class="footable table index_table toggle-square-filled toggle-medium table-striped table-bordered table-hover"
-             data-filter-minimum="1"
-             data-filter="#filter"
-             data-page-navigation=".pagination"
-             data-limit-navigation="5"
-             <%#= data_page_size(:index) %>
-             <%= 5 %> >
-        <thead>
-          <tr>
-            <th data-sort-initial="true" data-toggle="true"><%= Brand.human_attribute_name(:name) %></th>
-            <% if current_user.office_admin? %>
-              <th data-sort-ignore="true"/>
-              <th data-sort-ignore="true"/>
-              <th data-sort-ignore="true"/>
-            <% end %>
-          </tr>
-        </thead>
-        <tbody>
-          <%= content_tag_for(:tr, @brands) do |brand| %>
-            <td><%= brand.name %></td>
-            <% if current_user.office_admin? %>
-              <td class="text-center">
-                <%= link_to brand, class: 'btn btn-info btn-sm' do %>
-                  <span class="glyphicon glyphicon-ok"/>
-                <% end %>
-              </td>
-              <td class="text-center">
-                <%= link_to edit_brand_path(brand), class: 'btn btn-success btn-sm' do %>
-                  <span class="glyphicon glyphicon-pencil"/>
-                <% end %>
-              </td>
-              <td class="text-center">
-                <%= link_to brand, class: 'btn btn-danger btn-sm', method: :delete, data: { confirm: t('views.are_you_sure') } do %>
-                  <span class="glyphicon glyphicon-trash"/>
-                <% end %>
-              </td>
-            <% end %>
-          <% end %>
-        </tbody>
-        <tfoot class="hide-if-no-paging">
-          <tr>
-            <td colspan="9" class="text-center">
-              <nav>
-                <ul class="pagination"/>
-              </nav>
-            </td>
-          </tr>
-        </tfoot>
-      </table>
-    </div>
-  </div>
-</div>
+<h2><%= @current_page_title %></h2>
+<table id="brands-table"
+    data-buttons-class="dark"
+    data-buttons="BTTable.default_custom_buttons"
+    data-cookie-id-table="brands-table"
+    data-cookie="true"
+    data-height="856"
+    data-locale="<%= locale_xx_yy(I18n.locale) %>"
+    data-maintain-meta-data="true"
+    data-page-size="20"
+    data-pagination-parts="['pageInfo', 'pageList']"
+    data-pagination="true"
+    data-query-params-type="limit"
+    data-remember-order="true"
+    data-search-accent-neutralise="true"
+    data-search-highlight="true"
+    data-search="true"
+    data-server-sort="true"
+    data-show-columns-toggle-all="true"
+    data-show-columns="true"
+    data-show-extended-pagination="true"
+    data-show-refresh="true"
+    data-show-toggle="true"
+    data-side-pagination="server"
+    data-sortable="true"
+    data-sticky-header="true"
+    data-table-bordered="true"
+    data-table-hover="true"
+    data-table-striped="true"
+    data-toggle="table"
+    data-toolbar=".toolbar"
+    data-url="<%= brands_path(format: :json) %>"
+
+    >
+    <!--
+      data-id-field="id"
+      data-row-attributes="BTTable.rowAttributes"
+      data-show-fullscreen="true"
+      data-pagination-v-align="top"
+      data-show-pagination-switch="true"
+
+    -->
+
+    <thead>
+      <tr>
+        <th data-field="name" data-sortable="true">Item Name</th>
+        <th data-field="bod" data-sortable="true">Date of Birth</th>
+        <th data-field="yes_or_not" data-sortable="true">Yes or Not</th>
+      </tr>
+    </thead>
+  </table>

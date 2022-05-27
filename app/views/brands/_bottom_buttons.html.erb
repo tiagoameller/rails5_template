@@ -1,0 +1,24 @@
+<div class="float-end mt-4">
+  <% if %w(edit new update create).include? action_name %>
+    <%= button_tag class: 'btn btn-outline-success' do %>
+      <%= bi_icon('box-arrow-down') %>
+      <%= t('views.save') %>
+    <% end %>
+  <% end %>
+  <% if %w(show).include? action_name %>
+    <%= link_to edit_brand_path(model), class: 'btn btn-outline-primary', id: 'action_edit_button' do %>
+      <%= bi_icon('pencil') %>
+      <%= t('views.edit') %> (alt-f3)
+    <% end %>
+  <% end %>
+  <% if %w(show edit update).include? action_name %>
+    <%= link_to brand_path(model), class: 'btn btn-outline-danger', id: 'action_delete_button', method: :delete, data: { confirm: t('views.are_you_sure') } do %>
+      <%= bi_icon('trash') %>
+      <%= t('views.destroy') %>
+    <% end %>
+  <% end %>
+  <%= link_to brands_path, class: 'btn btn-outline-secondary', id: 'btn_back', data: {turbolinks: false} do %>
+    <%= bi_icon('arrow-return-left') %>
+    <%= t('views.back') %> (esc)
+  <% end %>
+</div>
