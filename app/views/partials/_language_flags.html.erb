@@ -1,8 +1,8 @@
 <% if current_user %>
-  <li class="navbar-item">
+  <span class="navbar-text">
     <%= link_to(image_tag('ca-icon.png'), set_locale_user_path(id: current_user.id, locale: :ca), method: :patch, class: 'nav-link') %>
-  </li>
-  <li class="navbar-item">
+  </span>
+  <span class="navbar-text">
     <%= link_to(image_tag('uk-icon.png'), set_locale_user_path(id: current_user.id, locale: :en), method: :patch, class: 'nav-link') %>
-  </li>
+  </span>
 <% end %>
