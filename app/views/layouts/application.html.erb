@@ -45,12 +45,12 @@
         <% if current_user.present? && current_user.basic? %>
           <h3 class="navbar-text navbar-left"><%= t 'views.read_only' %></h3>
         <% end %>
-        <% if current_user %>
+        <% if user_signed_in? %>
           <div class="justify-content-between">
 
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="nav navbar-nav">
-                <% if current_user.present? %>
+                <% if user_signed_in? %>
                   <li class="nav-item">
                     <%= current_user.current_salesman_name %>
                   </li>

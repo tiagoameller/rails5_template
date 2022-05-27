@@ -1,4 +1,4 @@
-<% if current_user %>
+<% if user_signed_in? %>
   <span class="navbar-text">
     <%= link_to(image_tag('ca-icon.png'), set_locale_user_path(id: current_user.id, locale: :ca), method: :patch, class: 'nav-link') %>
   </span>
