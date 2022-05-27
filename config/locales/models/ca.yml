@@ -493,6 +493,7 @@ ca:
 
   errors:
     messages:
+      check_fields: Revisi la informació entrada
       cannot_delete_customer: "No es pot esborrar client creat a oficina"
       cant_find_salesman: "No s'ha trobat cap venedor per aquesta sèrie i client"
       customer_percent_invalid_sequence: "Client té marcat 100%. No es pot aplicar aquesta sèrie"

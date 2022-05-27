@@ -1,0 +1,21 @@
+<% if model.errors.any? %>
+  <%= render 'partials/alert_icons' %>
+  <%= tag.div class: "alert alert-danger alert-dismissible fade show", role: "alert" do %>
+    <h4 class="alert-heading">
+      <%= tag.svg class:"bi flex-shrink-0 me-2", width: "24", height: "24", role: :img, 'aria-label': 'error' do %>
+        <%= tag.use 'xlink:href': "#danger-icon" %>
+      <% end%>
+      <%= t('errors.messages.check_fields') %>
+    </h4>
+    <p>
+      <%= t('errors.template.header', model: model.class.model_name.human, count: model.errors.count) %>
+    </p>
+    <hr>
+    <ul>
+      <% model.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+    </ul>
+  <% end %>
+<% end %>
+

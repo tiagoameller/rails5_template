@@ -493,6 +493,7 @@ en:
 
   errors:
     messages:
+      check_fields: Check encountered errors
       cannot_delete_customer: 'You cannot delete a customer created in the office'
       cant_find_salesman: "Can't find a seller for this sequence and customer"
       customer_percent_invalid_sequence: "Customer has 100%. Cannot apply this sequence"

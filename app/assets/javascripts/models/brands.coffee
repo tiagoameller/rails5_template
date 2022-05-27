@@ -2,9 +2,6 @@
 # Place all the behaviors and hooks related to the matching controller here.
 # You can use CoffeeScript in this file: http://coffeescript.org/
 
-$(document).on 'turbolinks:load', ->
-  $('.focus-me').focus()
-
   # $('#brands-table').on('click-row.bs.table', (row, element, field) ->
   #   # console.log row
   #   console.log element
