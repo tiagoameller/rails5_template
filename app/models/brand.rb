@@ -10,5 +10,12 @@
 #  bod        :date
 #
 class Brand < ApplicationRecord
+  include CodeNameStuff
+
   validates :name, presence: true
+
+  def formatted_code
+    # avoid CodeNameStuff errors
+    nil
+  end
 end

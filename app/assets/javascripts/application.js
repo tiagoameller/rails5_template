@@ -15,12 +15,15 @@
 //= require turbolinks
 //= require jquery3
 //= require jquery-ui
+//= require jquery_ujs
 //= require popper
 //= require bootstrap
 //= require bootstrap-table/bootstrap-table
 //= require bootstrap-table/locale/bootstrap-table-ca-ES.js
 //= require bootstrap-table/locale/bootstrap-table-en-US.js
 //= require bootstrap-table/extensions/cookie/bootstrap-table-cookie.js
+//= require jquery-ui/widgets/autocomplete
+//= require autocomplete-rails
 //= require_tree .
 //= require_tree ./global/
 //= require_tree ./models/

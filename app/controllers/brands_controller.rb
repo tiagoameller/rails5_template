@@ -3,8 +3,7 @@ class BrandsController < ApplicationController
   # before_action :check_user_design_or_office_or_admin, only: [:new, :create, :edit, :update, :destroy]
   # TODO: check_user_design_or_office_or_admin
   before_action :set_brand, only: [:show, :edit, :update, :destroy, :history]
-  # autocomplete :brand, :name, full: true
-  # TODO: autocomplete
+  autocomplete :brand, :name, full: true
 
   # GET /brands
   def index

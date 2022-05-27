@@ -49,6 +49,7 @@ gem 'jquery-rails'
 # https://github.com/jquery-ui-rails/jquery-ui-rails/blob/v5.0.5/README.md
 gem 'jquery-ui-rails'
 gem 'momentjs-rails'
+gem 'rails-jquery-autocomplete'
 
 gem 'rails-i18n'
 gem 'devise-i18n'
