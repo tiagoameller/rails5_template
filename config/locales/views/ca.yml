@@ -48,7 +48,7 @@ ca:
     delivery_notes_report: 'Llistat selectiu albarans i factures'
     destroy: 'Esborrar'
     detail: 'Detall'
-    dimiss: 'Entesos'
+    dismiss: 'Entesos'
     directory: 'Accés directe:'
     doc_numbers: "Núms. document (espais davant)"
     due_dates: 'Venciments'

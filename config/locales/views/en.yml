@@ -48,7 +48,7 @@ en:
     delivery_notes_report: 'Delivery notes report'
     destroy: 'Destroy'
     detail: 'Detail'
-    dimiss: 'Dimiss'
+    dismiss: 'dismiss'
     directory: 'Shortcut:' #
     doc_numbers: "Doc. numbers (spaces before)"
     due_dates: 'Due dates'

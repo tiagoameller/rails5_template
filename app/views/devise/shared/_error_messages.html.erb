@@ -1,0 +1,20 @@
+<% if resource.errors.any? %>
+  <%= render 'partials/alert_icons' %>
+  <%= tag.div class: "alert alert-danger alert-dismissible fade show", role: "alert", id: 'error_explanation' do %>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <h4 class="alert-heading">
+      <%= tag.svg class:"bi flex-shrink-0 me-2", width: "24", height: "24", role: :img, 'aria-label': 'error' do %>
+        <%= tag.use 'xlink:href': "#danger-icon" %>
+      <% end%>
+      <%= I18n.t("errors.messages.not_saved",
+                 count: resource.errors.count,
+                 resource: resource.class.model_name.human.downcase)
+       %>
+    </h4>
+    <ul>
+      <% resource.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+    </ul>
+  <% end %>
+<% end %>
