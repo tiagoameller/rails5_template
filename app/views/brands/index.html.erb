@@ -8,53 +8,13 @@
 </script>
 
 <h2><%= @current_page_title %></h2>
-<table id="brands-table"
-    data-buttons-class="dark"
-    data-buttons="BTTable.default_custom_buttons"
-    data-cookie-id-table="brands-table"
-    data-cookie="true"
-    data-height="856"
-    data-locale="<%= locale_xx_yy(I18n.locale) %>"
-    data-maintain-meta-data="true"
-    data-page-size="20"
-    data-pagination-parts="['pageInfo', 'pageList']"
-    data-pagination="true"
-    data-query-params-type="limit"
-    data-remember-order="true"
-    data-search-accent-neutralise="true"
-    data-search-highlight="true"
-    data-search="true"
-    data-server-sort="true"
-    data-show-columns-toggle-all="true"
-    data-show-columns="true"
-    data-show-extended-pagination="true"
-    data-show-refresh="true"
-    data-show-toggle="true"
-    data-side-pagination="server"
-    data-sortable="true"
-    data-sticky-header="true"
-    data-table-bordered="true"
-    data-table-hover="true"
-    data-table-striped="true"
-    data-toggle="table"
-    data-toolbar=".toolbar"
-    data-url="<%= brands_path(format: :json) %>"
-
-    >
-    <!--
-      data-id-field="id"
-      data-row-attributes="BTTable.rowAttributes"
-      data-show-fullscreen="true"
-      data-pagination-v-align="top"
-      data-show-pagination-switch="true"
-
-    -->
-
-    <thead>
-      <tr>
-        <th data-field="name" data-sortable="true">Item Name</th>
-        <th data-field="bod" data-sortable="true">Date of Birth</th>
-        <th data-field="yes_or_not" data-sortable="true">Yes or Not</th>
-      </tr>
-    </thead>
-  </table>
+<%= bs_table_tag(:brands) do %>
+  <thead>
+    <tr>
+      <th data-field="name" data-sortable="true">Item Name</th>
+      <th data-field="bod" data-sortable="true">Date of Birth</th>
+      <th data-field="yes_or_not" data-sortable="true">Yes or Not</th>
+    <!-- <th data-field="edit" data-align="center"/> -->
+    </tr>
+  </thead>
+<% end %>

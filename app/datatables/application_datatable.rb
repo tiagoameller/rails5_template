@@ -36,7 +36,7 @@ class ApplicationDatatable
   end
 
   def offset
-    (params[:offset].to_i / limit) + 1
+    params[:offset].to_i / limit
   end
 
   def limit
