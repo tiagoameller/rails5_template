@@ -24,13 +24,21 @@ window.BTTable = {
 }
 
 $(document).on 'turbolinks:load', ->
-  $(table_id).on('click-row.bs.table', (row, element, field) ->
-    window.location = show_path.replace /%3CID%3E/, element.id
-  ) if table_id? && show_path?
+  if table_id?
+    $(table_id).bootstrapTable() # initialize the table. Options are set by html attributes
 
-  $(table_id).on('dbl-click-row.bs.table', (row, element, field) ->
-    window.location = edit_path.replace /%3CID%3E/, element.id
-  ) if table_id? && edit_path?
+    $(table_id).on('click-row.bs.table', (row, element, field) ->
+      window.location.href = show_path.replace /%7BID%7D/, element.id
+    ) if show_path?
+
+    $(table_id).on('dbl-click-row.bs.table', (row, element, field) ->
+      window.location.href = edit_path.replace /%7BID%7D/, element.id
+    ) if edit_path?
+
+  # $(table_id).on('post-body.bs.table', (data) ->
+  #   debugger
+  #   console.log(data)
+  # )
 
 
   # rowAttributtes: (row, index) ->
